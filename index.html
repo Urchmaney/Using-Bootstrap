@@ -6,6 +6,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (max-width:754px)" href="css/small.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-width:755px)" href="css/medium.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-width:1024px)" href="css/large.css" />
+
     <title>
         Bootstrap
     </title>
@@ -14,6 +19,74 @@
 
 <body>
 
+
+    <header class="container-fluid">
+        <div id="header" class="row red-bg text-white">
+
+            <div class="col-md-4 align-items-end d-none d-md-flex">
+                <p>
+                    <span class="">Wed, Jul 24, 2019</span>
+                </p>
+            </div>
+
+
+            <div class="col-5 col-md-4 d-flex align-items-center justify-content-center">
+                <a href="#">
+                    <img class="img-fluid" src="images/nesweek.svg" width="100%">
+
+                </a>
+            </div>
+
+            <div class="col-6 col-md-4 d-flex align-items-end justify-content-end ">
+                <p>
+                    <button class="red-bg text-white border-0 font-weight-bold">
+                        SIGN IN
+                    </button>
+                    <button class="bg-light red-text border-0 font-weight-bold">
+                        SUBSCRIBE <i class="fas fa-chevron-right"></i>
+                    </button>
+
+                </p>
+
+            </div>
+            <diiv class="col-1  d-md-none red-bg d-flex align-items-center justify-content-center">
+                <button class="border-0 no-bg text-white">
+                    <span>
+                        <i class="fas fa-bars fs"></i>
+                    </span>
+                </button>
+            </diiv>
+
+
+        </div>
+
+
+
+
+    </header>
+
+    <nav class="navbar navbar-expand-md justify-content-center navbar-light bg-light">
+
+        <ul class="navbar-nav text-dark d-flex justify-content-center border-bottom">
+            <li class="nav-item pl-3 pr-3 font-weight-bold fs border-right"><a class="text-dark" href="#">U.S.</a></li>
+            <li class="nav-item pl-3 pr-3 font-weight-bold fs border-right"><a class="text-dark" href="#">World</a></li>
+            <li class="nav-item pl-3 pr-3 font-weight-bold fs border-right"><a class="text-dark" href="#">Business</a></li>
+            <li class="nav-item pl-3 pr-3 font-weight-bold fs border-right"><a class="text-dark" href="#">Tech & Science</a></li>
+            <li class="nav-item pl-3 pr-3 font-weight-bold fs border-right"><a class="text-dark" href="#">Culture</a></li>
+            <li class="nav-item pl-3 pr-3 font-weight-bold fs border-right"><a class="text-dark" href="#">Sports</a></li>
+            <li class="nav-item pl-3 pr-3 font-weight-bold fs border-right"><a class="text-dark" href="#">Health</a></li>
+            <li class="nav-item pl-3 pr-3 font-weight-bold fs border-right"><a class="text-dark" href="#">Opinion</a></li>
+            <li class="nav-item pl-3 pr-3 font-weight-bold fs"><a class="text-dark" href="#">Vantage</a></li>
+            <li class="nav-item pl-3 pr-3 font-weight-bold fs">
+                <button>
+                    Search <i class="fas fa-search"></i>
+                </button>
+            </li>
+
+        </ul>
+
+
+    </nav>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
