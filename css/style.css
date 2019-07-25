@@ -1,4 +1,4 @@
-html{
+.html-bg{
     background-color: #F4F5F6;
 }
 
@@ -31,8 +31,35 @@ html{
     padding:0;
 }
 
+.categories{
+    background-color: rgba(225,225,255,0.9);
+    color:#F72210;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
 .myabsolute{
     position: absolute;
     left:0;
     bottom:0;
+}
+.smallLineHeiht{
+    line-height: 1;
+}
+
+.btn-bg{
+    background-color: #C2D4D7;
+}
+.lightBlue{
+    color:#3581F4;
+
+}
+.icon-n{
+    content: "N";
+    background-color: #F72210;
+    height: 75px;
+    color:white;
+    font-weight: bold;
+    width: 75px;
 }
