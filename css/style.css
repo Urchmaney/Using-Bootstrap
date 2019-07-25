@@ -1,3 +1,7 @@
+html{
+    background-color: #F4F5F6;
+}
+
 .header-margin{
     margin-bottom:10px;
 }
@@ -19,6 +23,16 @@
 }
 
 .fs{
-    font-size:20px;
+    font-size:15px;
 }
 
+.container{
+    max-width: 1300px;
+    padding:0;
+}
+
+.myabsolute{
+    position: absolute;
+    left:0;
+    bottom:0;
+}
