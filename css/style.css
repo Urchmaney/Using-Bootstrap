@@ -1,0 +1,38 @@
+html{
+    background-color: #F4F5F6;
+}
+
+.header-margin{
+    margin-bottom:10px;
+}
+
+.red-bg{
+    background-color: #f72210;
+}
+
+.red-text{
+    color: #f72210;
+}
+
+#header{
+    height:100px;
+}
+
+.no-bg{
+    background-color: transparent;
+}
+
+.fs{
+    font-size:15px;
+}
+
+.container{
+    max-width: 1300px;
+    padding:0;
+}
+
+.myabsolute{
+    position: absolute;
+    left:0;
+    bottom:0;
+}

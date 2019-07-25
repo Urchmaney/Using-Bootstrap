@@ -6,13 +6,291 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (max-width:754px)" href="css/small.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-width:755px)" href="css/medium.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-width:1024px)" href="css/large.css" />
+
     <title>
         Bootstrap
     </title>
 
 </head>
 
-<body>
+<body class="container">
+
+
+    <header>
+        <div id="header" class="d-flex red-bg text-white">
+
+            <div class="col-md-4 align-items-end d-none d-md-flex">
+                <p>
+                    <span class="">Wed, Jul 24, 2019</span>
+                </p>
+            </div>
+
+
+            <div class="col-5 col-md-4 d-flex align-items-center justify-content-center">
+                <a href="#">
+                    <img class="img-fluid" src="images/nesweek.svg" width="100%">
+
+                </a>
+            </div>
+
+            <div class="col-6 col-md-4 d-flex align-items-end justify-content-end ">
+                <p>
+                    <button class="red-bg text-white border-0 font-weight-bold">
+                        SIGN IN
+                    </button>
+                    <button class="bg-light red-text border-0 font-weight-bold">
+                        SUBSCRIBE <i class="fas fa-chevron-right"></i>
+                    </button>
+
+                </p>
+
+            </div>
+            <diiv class="col-1  d-md-none red-bg d-flex align-items-center justify-content-center">
+                <button class="border-0 no-bg text-white" data-toggle="collapse" data-target="#main-links">
+                    <span>
+                        <i class="fas fa-bars fs"></i>
+                    </span>
+                </button>
+            </diiv>
+
+
+        </div>
+
+
+
+
+    </header>
+
+    <nav class="navbar navbar-expand-md justify-content-center navbar-light bg-light">
+        <div class="collapse navbar-collapse justify-content-center" id="main-links">
+            <ul class="navbar-nav text-dark d-flex justify-content-center border-bottom">
+                <li class="nav-item pl-3 pr-3 mt-3 mb-3 font-weight-bold fs border-right"><a class="text-dark"
+                        href="#">U.S.</a></li>
+                <li class="nav-item pl-3 pr-3 mt-3 mb-3 font-weight-bold fs border-right"><a class="text-dark"
+                        href="#">World</a></li>
+                <li class="nav-item pl-3 pr-3 mt-3 mb-3 font-weight-bold fs border-right"><a class="text-dark"
+                        href="#">Business</a></li>
+                <li class="nav-item pl-3 pr-3 mt-3 mb-3 font-weight-bold fs border-right"><a class="text-dark"
+                        href="#">Tech & Science</a></li>
+                <li class="nav-item pl-3 pr-3 mt-3 mb-3 font-weight-bold fs border-right"><a class="text-dark"
+                        href="#">Culture</a></li>
+                <li class="nav-item pl-3 pr-3 mt-3 mb-3 font-weight-bold fs border-right"><a class="text-dark"
+                        href="#">Sports</a></li>
+                <li class="nav-item pl-3 pr-3 mt-3 mb-3 font-weight-bold fs border-right"><a class="text-dark"
+                        href="#">Health</a></li>
+                <li class="nav-item pl-3 pr-3 mt-3 mb-3 font-weight-bold fs border-right"><a class="text-dark"
+                        href="#">Opinion</a></li>
+                <li class="nav-item pl-3 pr-3 mt-3 mb-3 font-weight-bold fs"><a class="text-dark" href="#">Vantage</a>
+                </li>
+                <li class="nav-item pl-3 pr-3 mt-3 mb-3 fs">
+                    <button class="no-bg border-0">
+                        Search <i class="fas fa-search"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="row">
+        <section class="col-xs-12 col-md-4">
+            <h4>
+                FEATURED STORIES
+            </h4>
+            <article>
+                <figure>
+                    <span class="d-flex position-relative">
+                        <img src="images/sec1-art1-img1.png" alt="Article 1">
+                        <div class="myabsolute pr-2 pl-2">
+                            ANALYSIS
+                        </div>
+                    </span>
+
+                    <figcaption>
+                        <a href="#">The Newsweek Momentum Awards</a>
+                    </figcaption>
+                </figure>
+                <p>
+                    The Newsweek Momentum Awards will recognize five individuals around the globe, as well as one city,
+                    which will be chosen as the "smartest city in the world."
+                </p>
+
+
+            </article>
+
+            <article>
+                <figure>
+                    <span class="d-flex position-relative">
+                        <img src="images/sec1-art2.png" alt="Article 3">
+                        <div class="myabsolute pr-2 pl-2">
+                            US
+                        </div>
+                    </span>
+
+                    <figcaption>
+                        <a href="#"> Mueller's Testimony Largely Fails to Affect Lawmakers' Stances on Impeachment</a>
+                    </figcaption>
+                </figure>
+                <p>
+                    Nearly all Democrats appeared to publicly remain within their respective anti- or pro-impeachment
+                    camps. Democratic leadership also continued to pour cold water on the idea.
+                </p>
+
+            </article>
+
+
+
+
+            <article>
+
+                <figure>
+                    <span class="d-flex position-relative">
+                        <img src="images/sec1-art3.png" alt="Article 1">
+                        <div class="myabsolute pr-2 pl-2">
+                            WORLD
+                        </div>
+                    </span>
+
+                    <figcaption>
+                        <a href="#">Russia Vows Support for Cuba, Including 'Military Technical' Amid Sanctions</a>
+                    </figcaption>
+                </figure>
+                <p>
+                    Russian Foreign Minister Sergey Lavrov called the U.S. blockade on Cuba "unacceptable" and "unlawful
+                    economic coercion."
+                </p>
+
+            </article>
+            <article>
+
+                <figure>
+                    <span class="d-flex position-relative">
+                        <img src="images/sec1-art4.png" alt="Article 4">
+                        <div class="myabsolute pr-2 pl-2">
+                            EDITOR'S NOTE
+                        </div>
+                    </span>
+
+                    <figcaption>
+                        <a href="#">To Our Readers:</a>
+                    </figcaption>
+                </figure>
+                <p>
+                    We always want to hear from you, and to make that easier, we've implemented a new commenting forum.
+                    Take a look at the bottom of Newsweek articles. Spot.IM is a tool that helps readers respond to our
+                    stories and communicate with one another—and with us. Ask us a question, embed a GIF, point out a
+                    mistake. Be civil and respectful, please. And most important: Be in touch.
+                </p>
+
+            </article>
+            <article>
+                <figure>
+                    <span class="d-flex position-relative">
+                        <img src="images/sec1-art5.png" alt="Article 5" width="100%">
+                        <div class="myabsolute pr-2 pl-2">
+                            SURVEY
+                        </div>
+                    </span>
+
+                    <figcaption>
+                        <a href="#">Best Nursing Homes</a>
+                    </figcaption>
+                </figure>
+                <p>
+                    The Newsweek Momentum Awards will recognize five individuals around the globe, as well as one city,
+                    which will be chosen as the "smartest city in the world."
+                </p>
+
+
+            </article>
+            <article>
+                <figure>
+                    <span class="d-flex position-relative">
+                        <img src="images/sec1-art1-img1.png" alt="Article 1">
+                        <div class="myabsolute pr-2 pl-2">
+                            SPONSORED INSIGHT
+                        </div>
+                    </span>
+
+                    <figcaption>
+                        <a href="#">Why IB schools lead to a better degree for your child</a>
+                    </figcaption>
+                </figure>
+                <p>
+                    The International Baccalaureate (IB) accredited schools inspire young people to become lifelong
+                    learners and academic high achievers - find out more.
+                </p>
+
+
+            </article>
+        </section>
+
+        <section class="col-xs-12 col-md-4">
+            <h4>
+                FEATURED STORIES
+            </h4>
+            <article>
+
+
+            </article>
+
+            <article>
+
+
+            </article>
+            <article>
+
+
+            </article>
+            <article>
+
+
+            </article>
+            <article>
+
+
+            </article>
+            <article>
+
+
+            </article>
+        </section>
+        <section class="col-xs-12 col-md-4">
+            <h4>
+                FEATURED STORIES
+            </h4>
+            <article>
+
+
+            </article>
+
+            <article>
+
+
+            </article>
+            <article>
+
+
+            </article>
+            <article>
+
+
+            </article>
+            <article>
+
+
+            </article>
+            <article>
+
+
+            </article>
+        </section>
+    </div>
+
+
 
 
 
