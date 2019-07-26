@@ -1,16 +1,14 @@
 #header {
     height: 50px;
-    
-    
 }
 
-#logo{
-    height:20px;
+#logo {
+    height: 20px;
 }
 
-#head-container{
+#head-container {
     margin-bottom: 40px;
-    width:100%;
+    width: 100%;
     position: fixed;
     z-index: 4;
 }
@@ -19,14 +17,15 @@
     width: 220px;
 }
 
-.fixedNav{
-    position: fixed;;
+.fixedNav {
+    position: fixed;
+    ;
     width: 100px;
-    top:20px;
-    right:0px;
-    z-index:3;
+    top: 20px;
+    right: 0px;
+    z-index: 3;
 }
 
-.toggle-position{
-    text-align:left;
+.toggle-position {
+    text-align: left;
 }

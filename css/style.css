@@ -65,23 +65,20 @@
     width: 75px;
 }
 
-
-
-.navOnScroll{
-    width:100%;
-    height:50px;
+.navOnScroll {
+    width: 100%;
+    height: 50px;
     z-index: 2;
 }
 
-
-.fixedNavBig{
+.fixedNavBig {
     position: fixed;
     height: 0;
-    top:50px;
-    right:0px;
-    z-index:3;
+    top: 50px;
+    right: 0px;
+    z-index: 3;
 }
 
-.img-full{
-    width:100%;
+.img-full {
+    width: 100%;
 }
