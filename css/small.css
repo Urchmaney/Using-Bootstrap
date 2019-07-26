@@ -4,6 +4,10 @@
     
 }
 
+#logo{
+    height:20px;
+}
+
 #head-container{
     margin-bottom: 40px;
     width:100%;
@@ -21,4 +25,8 @@
     top:20px;
     right:0px;
     z-index:3;
+}
+
+.toggle-position{
+    text-align:left;
 }

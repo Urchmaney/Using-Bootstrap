@@ -32,7 +32,7 @@
 
             <div id="news-div" class="col-5 col-md-4 d-flex align-items-center justify-content-center">
                 <a href="#">
-                    <img class="img-fluid" src="images/nesweek.svg" width="100%">
+                    <img id="logo" class="img-fluid" src="images/nesweek.svg" width="100%">
 
                 </a>
             </div>
@@ -50,7 +50,8 @@
 
             </div>
             <div id="div-toggler" class="col-1  d-md-none red-bg d-flex align-items-center justify-content-center">
-                <button id="btn-toggle" class="border-0 no-bg text-white" data-toggle="collapse" data-target="#main-links">
+                <button id="btn-toggle" class="border-0 no-bg text-white" data-toggle="collapse"
+                    data-target="#main-links" onclick="toggleVisible()">
                     <span>
                         <i class="fas fa-bars fs"></i>
                     </span>
@@ -67,7 +68,7 @@
 
     </header>
 
-    <div class="container">
+    <main class="container">
 
 
         <nav id="nav-bar" class="navbar navbar-expand-md justify-content-center navbar-light bg-light fixedNav">
@@ -103,7 +104,7 @@
 
         <div id="main" class="row mr-1 ml-1">
 
-            <section class="col-md-6">
+            <section class="col-md-6 p-1">
                 <h6 class="text-muted">
                     TOP STORY
                 </h6>
@@ -521,7 +522,7 @@
             </section>
 
 
-            <section class=" col-md-3">
+            <section class=" col-md-3 p-1">
                 <h6 class="text-muted">
                     OPINION
                 </h6>
@@ -840,7 +841,7 @@
         </div>
 
 
-        <div class="row">
+        <div class="row p-2">
             <section class="col-md-4">
                 <article>
 
@@ -1007,7 +1008,7 @@
             </section>
         </div>
 
-        <section>
+        <section class="p-1">
             <h6 class="text-center border-bottom pb-1">
                 EDITOR'S PICK
             </h6>
@@ -1197,7 +1198,7 @@
 
 
 
-        <section>
+        <section class="p-1">
             <h6 class="text-center border-bottom pb-1">
                 FEATURED SLIDESHOWS
             </h6>
@@ -1316,7 +1317,7 @@
 
         </section>
 
-        <section class="mt-4">
+        <section class="mt-4 p-1">
             <h5 class="red-text font-weight-bold border-top pt-2">
                 U.S
             </h5>
@@ -1389,7 +1390,7 @@
 
 
 
-        <section class="mt-4">
+        <section class="mt-4 p-1">
             <h5 class="red-text font-weight-bold border-top pt-2">
                 World
             </h5>
@@ -1461,7 +1462,7 @@
 
 
 
-        <section class="mt-4">
+        <section class="mt-4 p-1">
             <h5 class="red-text font-weight-bold border-top pt-2">
                 Business
             </h5>
@@ -1535,7 +1536,7 @@
 
 
 
-        <section class="mt-4">
+        <section class="mt-4 p-1">
             <h5 class="red-text font-weight-bold border-top pt-2">
                 Sports
             </h5>
@@ -1605,7 +1606,7 @@
             </div>
         </section>
 
-        <section class="row">
+        <section class="row p-1">
             <article class="col-md-8">
                 <h6 class="red-text">
                     SUBSCRIBE
@@ -1648,7 +1649,67 @@
             </article>
         </section>
 
-    </div>
+
+
+
+    </main>
+
+   
+
+    <footer class="container p-3">
+        <div class="row border-bottom mb-1 pb-1">
+            <div class="col-md-1 red-text">
+                    <img src="images/dd.svg" height="30" width="100" alt="">
+            </div>
+            
+            <div class="col-md-8 ">
+                © 2019 NEWSWEEK
+            </div>
+            <div class="toggle-position col-md-3">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-twitter"></i>
+
+                <i class="fab fa-tumblr"></i>
+                <i class="fab fa-linkedin-in"></i>
+
+            </div>
+        </div>
+        
+        <div class="row">
+
+            <ul class="nav col-md-7">
+                <li class="pr-2 pl-2 border-right"> About Us</li>
+
+                <li class="pr-2 pl-2 border-right">Corrections</li>
+                <li class="pr-2 pl-2 border-right">Contact Us</li>
+                <li class="pr-2 pl-2 border-right">Editorial Guidelines</li>
+                <li class="pr-2 pl-2 border-right">Advertise</li>
+                <li class="pr-2 pl-2 border-right">Copyright</li>
+                <li class="pr-2 pl-2 border-right">Terms & Conditions</li>
+                <li class="pr-2 pl-2 border-right">Privacy Policy</li>
+                <li class="pr-2 pl-2 border-right">Cookie Policy</li>
+                <li class="pr-2 pl-2 border-right">Terms of Sale</li>
+                <li class="pr-2 pl-2 border-right">Archive</li>
+                <li class="pr-2 pl-2 border-right">Announcements</li>
+                <li class="pr-2 pl-2 border-right">Consent preferences</li>
+
+            </ul>
+            <p class="col-md-3 toggle-position">
+                Editions:
+            </p>
+            <ul class="nav col-md-2">
+               
+                <li  class="pr-2 pl-2 border-right">U.S. Edition</li>
+                <li  class="pr-2 pl-2 border-right">日本</li>
+                <li  class="pr-2 pl-2 border-right">한국</li>
+                <li  class="pr-2 pl-2 border-right">Pakistan</li>
+                <li  class="pr-2 pl-2 border-right">Polska</li>
+                <li  class="pr-2 pl-2 border-right">România</li>
+            </ul>
+        </div>
+
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -1664,7 +1725,7 @@
 
         var header = document.getElementById("head-container");
         var innerheader = document.getElementById("header");
-        var sticky = header.offsetTop+header.height;
+        var sticky = header.offsetTop + header.height;
         var navbar = document.getElementById("nav-bar");
         var sticky = navbar.offsetTop;
         var divToggler = document.getElementById("div-toggler");
@@ -1672,53 +1733,56 @@
         var newsDiv = document.getElementById("news-div");
         var btnDiv = document.getElementById("btn-div");
         var hangDiv = document.getElementById("hang");
-        var main=document.getElementById("main");
-        window.onscroll = function () { fixedNavBar() };
+        var main = document.getElementById("main");
 
-        
+        var logo = document.getElementById("logo");
+        window.onscroll = function () { fixedNavBar() };
+        var ison = false;
+
+
 
         function fixedNavBar() {
 
-            if (document.body.clientWidth > 755){
+            if (document.body.clientWidth > 755) {
                 if (window.pageYOffset > sticky) {
-                header.classList.add("position-fixed");
-                header.classList.remove("container");
-                header.classList.add("navOnScroll");
-                innerheader.style.height="50px";
-                 main.style.paddingTop="120px";
-               navbar.classList.remove("navbar-expand-md");
-                divToggler.classList.remove("d-md-none");
-                timeDiv.classList.remove("col-md-4");
-                timeDiv.classList.remove("d-md-flex");
-                newsDiv.classList.add("col-md-5");
-                btnDiv.classList.add("col-md-6");
-                hangDiv.classList.add("d-none");
-               
-
-            } else {
-                header.classList.remove("navOnScroll");
-                innerheader.style.height="100px";
-                header.classList.add("container");
-                header.classList.remove("position-fixed");
-                navbar.classList.add("navbar-expand-md");
-                hangDiv.classList.remove("d-none");
-                main.style.paddingTop="0";
+                    header.classList.add("position-fixed");
+                    header.classList.remove("container");
+                    header.classList.add("navOnScroll");
+                    innerheader.style.height = "50px";
+                    main.style.paddingTop = "120px";
+                    navbar.classList.remove("navbar-expand-md");
+                    navbar.classList.add("fixedNavBig");
+                    logo.style.height = "20px";
+                    divToggler.classList.remove("d-md-none");
+                    timeDiv.classList.remove("col-md-4");
+                    timeDiv.classList.remove("d-md-flex");
+                    newsDiv.classList.add("col-md-5");
+                    newsDiv.classList.remove("justify-content-center");
+                    btnDiv.classList.add("col-md-6");
+                    hangDiv.classList.add("d-none");
 
 
-                divToggler.classList.add("d-md-none");
-                timeDiv.classList.add("col-md-4");
-                timeDiv.classList.add("d-md-flex");
-                newsDiv.classList.remove("col-md-5");
-                btnDiv.classList.remove("col-md-6");
-                // navbar1.classList.remove("navbar-1-sticky");
-                // if (document.body.clientWidth > 755)
-                //     navbarLogo.style.display = "none";
-                // else
-                //     navbarLogo.style.display = "flex";
+                } else {
+                    header.classList.remove("navOnScroll");
+                    innerheader.style.height = "100px";
+                    header.classList.add("container");
+                    header.classList.remove("position-fixed");
+                    navbar.classList.add("navbar-expand-md");
+                    hangDiv.classList.remove("d-none");
+                    main.style.paddingTop = "0";
+                    navbar.classList.remove("fixedNavBig");
+                    logo.style.height = "";
 
+                    divToggler.classList.add("d-md-none");
+                    timeDiv.classList.add("col-md-4");
+                    timeDiv.classList.add("d-md-flex");
+                    newsDiv.classList.remove("col-md-5");
+                    btnDiv.classList.remove("col-md-6");
+
+
+                }
             }
-            }
-           
+
         }
     </script>
 

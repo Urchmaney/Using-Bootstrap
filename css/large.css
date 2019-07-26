@@ -15,3 +15,7 @@
    
     position: relative;
 }
+
+.toggle-position{
+    text-align:right;
+}

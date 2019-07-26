@@ -72,3 +72,12 @@
     height:50px;
     z-index: 2;
 }
+
+
+.fixedNavBig{
+    position: fixed;
+    height: 0;
+    top:50px;
+    right:0px;
+    z-index:3;
+}
