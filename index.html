@@ -17,27 +17,27 @@
 
 </head>
 
-<body class="container">
+<body>
 
 
-    <header>
-        <div id="header" class="d-flex red-bg text-white">
+    <header id="head-container" class="container">
+        <div id="header" class="d-flex red-bg text-white ">
 
-            <div class="col-md-4 align-items-end d-none d-md-flex">
+            <div id="time-div" class="col-md-4 align-items-end d-none d-md-flex">
                 <p>
                     <span class="">Wed, Jul 24, 2019</span>
                 </p>
             </div>
 
 
-            <div class="col-5 col-md-4 d-flex align-items-center justify-content-center">
+            <div id="news-div" class="col-5 col-md-4 d-flex align-items-center justify-content-center">
                 <a href="#">
                     <img class="img-fluid" src="images/nesweek.svg" width="100%">
 
                 </a>
             </div>
 
-            <div class="col-6 col-md-4 d-flex align-items-end justify-content-end ">
+            <div id="btn-div" class="col-6 col-md-4 d-flex align-items-end justify-content-end ">
                 <p>
                     <button class="red-bg text-white border-0 font-weight-bold">
                         SIGN IN
@@ -49,1538 +49,1606 @@
                 </p>
 
             </div>
-            <diiv class="col-1  d-md-none red-bg d-flex align-items-center justify-content-center">
-                <button class="border-0 no-bg text-white" data-toggle="collapse" data-target="#main-links">
+            <div id="div-toggler" class="col-1  d-md-none red-bg d-flex align-items-center justify-content-center">
+                <button id="btn-toggle" class="border-0 no-bg text-white" data-toggle="collapse" data-target="#main-links">
                     <span>
                         <i class="fas fa-bars fs"></i>
                     </span>
                 </button>
-            </diiv>
+            </div>
 
 
         </div>
 
+        <div id="hang">
 
+        </div>
 
 
     </header>
 
-    <nav class="navbar navbar-expand-md justify-content-center navbar-light bg-light">
-        <div class="collapse navbar-collapse justify-content-center" id="main-links">
-            <ul class="navbar-nav text-dark d-flex justify-content-center border-bottom">
-                <li class="nav-item pl-3 pr-3 mt-3 mb-3 font-weight-bold fs border-right"><a class="text-dark"
-                        href="#">U.S.</a></li>
-                <li class="nav-item pl-3 pr-3 mt-3 mb-3 font-weight-bold fs border-right"><a class="text-dark"
-                        href="#">World</a></li>
-                <li class="nav-item pl-3 pr-3 mt-3 mb-3 font-weight-bold fs border-right"><a class="text-dark"
-                        href="#">Business</a></li>
-                <li class="nav-item pl-3 pr-3 mt-3 mb-3 font-weight-bold fs border-right"><a class="text-dark"
-                        href="#">Tech & Science</a></li>
-                <li class="nav-item pl-3 pr-3 mt-3 mb-3 font-weight-bold fs border-right"><a class="text-dark"
-                        href="#">Culture</a></li>
-                <li class="nav-item pl-3 pr-3 mt-3 mb-3 font-weight-bold fs border-right"><a class="text-dark"
-                        href="#">Sports</a></li>
-                <li class="nav-item pl-3 pr-3 mt-3 mb-3 font-weight-bold fs border-right"><a class="text-dark"
-                        href="#">Health</a></li>
-                <li class="nav-item pl-3 pr-3 mt-3 mb-3 font-weight-bold fs border-right"><a class="text-dark"
-                        href="#">Opinion</a></li>
-                <li class="nav-item pl-3 pr-3 mt-3 mb-3 font-weight-bold fs"><a class="text-dark" href="#">Vantage</a>
-                </li>
-                <li class="nav-item pl-3 pr-3 mt-3 mb-3 fs">
-                    <button class="no-bg border-0">
-                        Search <i class="fas fa-search"></i>
-                    </button>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <div class="container">
 
-    <div class="row mr-1 ml-1">
 
-        <section class=" col-md-6">
-            <h6 class="text-muted">
-                TOP STORY
-            </h6>
-            <article>
+        <nav id="nav-bar" class="navbar navbar-expand-md justify-content-center navbar-light bg-light fixedNav">
+            <div class="collapse navbar-collapse justify-content-center" id="main-links">
+                <ul class="navbar-nav text-dark d-flex justify-content-center border-bottom">
+                    <li class="nav-item pl-3 pr-3 mt-3 mb-3 font-weight-bold fs border-right"><a class="text-dark"
+                            href="#">U.S.</a></li>
+                    <li class="nav-item pl-3 pr-3 mt-3 mb-3 font-weight-bold fs border-right"><a class="text-dark"
+                            href="#">World</a></li>
+                    <li class="nav-item pl-3 pr-3 mt-3 mb-3 font-weight-bold fs border-right"><a class="text-dark"
+                            href="#">Business</a></li>
+                    <li class="nav-item pl-3 pr-3 mt-3 mb-3 font-weight-bold fs border-right"><a class="text-dark"
+                            href="#">Tech & Science</a></li>
+                    <li class="nav-item pl-3 pr-3 mt-3 mb-3 font-weight-bold fs border-right"><a class="text-dark"
+                            href="#">Culture</a></li>
+                    <li class="nav-item pl-3 pr-3 mt-3 mb-3 font-weight-bold fs border-right"><a class="text-dark"
+                            href="#">Sports</a></li>
+                    <li class="nav-item pl-3 pr-3 mt-3 mb-3 font-weight-bold fs border-right"><a class="text-dark"
+                            href="#">Health</a></li>
+                    <li class="nav-item pl-3 pr-3 mt-3 mb-3 font-weight-bold fs border-right"><a class="text-dark"
+                            href="#">Opinion</a></li>
+                    <li class="nav-item pl-3 pr-3 mt-3 mb-3 font-weight-bold fs"><a class="text-dark"
+                            href="#">Vantage</a>
+                    </li>
+                    <li class="nav-item pl-3 pr-3 mt-3 mb-3 fs">
+                        <button class="no-bg border-0">
+                            Search <i class="fas fa-search"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-                <figure>
-                    <span class="d-flex position-relative">
-                        <img src="images/sec2-art1.jpg" alt="Article 1" width="100%">
-                        <div class="myabsolute pr-2 pl-2 categories">
-                            ANALYSIS
+        <div id="main" class="row mr-1 ml-1">
+
+            <section class="col-md-6">
+                <h6 class="text-muted">
+                    TOP STORY
+                </h6>
+                <article>
+
+                    <figure>
+                        <span class="d-flex position-relative">
+                            <img src="images/sec2-art1.jpg" alt="Article 1" width="100%">
+                            <div class="myabsolute pr-2 pl-2 categories">
+                                ANALYSIS
+                            </div>
+                        </span>
+
+                        <figcaption>
+                            <a href="#" class="text-dark font-weight-bold">Young 'Trumpkins' Showcase His Hold on the
+                                GOP's
+                                Future</a>
+                        </figcaption>
+                    </figure>
+                    <p>
+                        Celebrating all things Trump, conservative students (metaphorically) gave the finger to
+                        political
+                        correctness and socialism.
+                    </p>
+                </article>
+
+                <article class="html-bg">
+                    <section>
+                        <h6 class="text-muted html-bg">
+                            CULTURE & TRAVEL
+                        </h6>
+                        <div class="row">
+                            <article class="col-xs-12 col-md-6">
+                                <figure>
+                                    <img src="images/sec2-art2.jpg" alt="Article 1" width="100%">
+                                    <figcaption>
+                                        <a href="#" class="text-dark font-weight-bold">10 Best Cities for Business
+                                            Travel</a>
+                                    </figcaption>
+                                </figure>
+                                <p>
+                                    <small>
+                                        These cities have it all: great airports, access to comfortable and affordable
+                                        accommodation, public transport and fun things to do in the off hours.
+                                    </small>
+
+                                </p>
+                                <button class="border-0 btn-bg"><small>TRAVEL</small></button>
+                            </article>
+                            <article class="col-xs-12 col-md-6">
+                                <figure>
+                                    <img src="images/sec2-art3.jpg" alt="Article 1" width="100%">
+                                    <figcaption>
+                                        <a href="#" class="text-dark font-weight-bold">IV Lounges - The Ultimate
+                                            Hangover
+                                            and Jet Lag cure?</a>
+                                    </figcaption>
+                                </figure>
+                                <p>
+                                    <small>
+                                        Drink too much last night? Just get off a long flight? An IV drip can banish
+                                        hangovers
+                                        and
+                                        jet lag alike.
+                                    </small>
+
+                                </p>
+                                <button class="border-0 btn-bg"><small>TRAVEL</small></button>
+                            </article>
+                            <article class="col-xs-12 col-md-6">
+                                <figure>
+                                    <img src="images/sec2-art4.jpg" alt="Article 1" width="100%">
+                                    <figcaption>
+                                        <a href="#" class="text-dark font-weight-bold">Avant Garde King Pierre Cardin
+                                            Takes
+                                            Brooklyn by Storm</a>
+                                    </figcaption>
+                                </figure>
+                                <p>
+                                    <small>
+                                        Historic and rarely seen work by the legendary designer - including clothing,
+                                        furniture,
+                                        and
+                                        films - are displayed in a fascinating retrospective at the Brooklyn Museum.
+                                    </small>
+                                </p>
+                                <button class="border-0 btn-bg"><small>FASHION</small></button>
+
+                            </article>
+                            <article class="col-xs-12 col-md-6">
+                                <figure>
+                                    <img src="images/sec2-art5.jpg" alt="Article 1" width="100%">
+                                    <figcaption>
+                                        <a href="#" class="text-dark font-weight-bold">Liz Taylor's Emerald Rolls-Royce
+                                            Expected to Fetch Upwards of $2
+                                            Million</a>
+                                    </figcaption>
+                                </figure>
+                                <p>
+                                    <small>
+                                        Elizabeth Taylor's 1960 Rolls-Royce Silver Cloud II, dubbed "The Green Goddess",
+                                        will be
+                                        up
+                                        for auction in August.
+                                    </small>
+
+                                </p>
+
+                                <button class="border-0 btn-bg"><small>CARS</small></button>
+                            </article>
                         </div>
-                    </span>
 
-                    <figcaption>
-                        <a href="#" class="text-dark font-weight-bold">Young 'Trumpkins' Showcase His Hold on the GOP's
-                            Future</a>
-                    </figcaption>
-                </figure>
-                <p>
-                    Celebrating all things Trump, conservative students (metaphorically) gave the finger to political
-                    correctness and socialism.
-                </p>
-            </article>
+                    </section>
 
-            <article class="html-bg">
-                <section>
-                    <h6 class="text-muted html-bg">
-                        CULTURE & TRAVEL
+                </article>
+                <article>
+                    <h6 class="text-muted mt-2">
+                        MORE STORIES
                     </h6>
-                    <div class="row">
-                        <article class="col-xs-12 col-md-6">
-                            <figure>
-                                <img src="images/sec2-art2.jpg" alt="Article 1" width="100%">
-                                <figcaption>
-                                    <a href="#" class="text-dark font-weight-bold">10 Best Cities for Business
-                                        Travel</a>
-                                </figcaption>
-                            </figure>
-                            <p>
-                                <small>
-                                    These cities have it all: great airports, access to comfortable and affordable
-                                    accommodation, public transport and fun things to do in the off hours.
-                                </small>
+                    <div class="clearfix pt-2 border-top">
 
-                            </p>
-                            <button class="border-0 btn-bg"><small>TRAVEL</small></button>
-                        </article>
-                        <article class="col-xs-12 col-md-6">
-                            <figure>
-                                <img src="images/sec2-art3.jpg" alt="Article 1" width="100%">
-                                <figcaption>
-                                    <a href="#" class="text-dark font-weight-bold">IV Lounges - The Ultimate Hangover
-                                        and Jet Lag cure?</a>
-                                </figcaption>
-                            </figure>
-                            <p>
-                                <small>
-                                    Drink too much last night? Just get off a long flight? An IV drip can banish
-                                    hangovers
-                                    and
-                                    jet lag alike.
-                                </small>
+                        <img class="increaseimgSize float-left mr-2" src="images/sec2-art6.jpg" alt="">
 
-                            </p>
-                            <button class="border-0 btn-bg"><small>TRAVEL</small></button>
-                        </article>
-                        <article class="col-xs-12 col-md-6">
-                            <figure>
-                                <img src="images/sec2-art4.jpg" alt="Article 1" width="100%">
-                                <figcaption>
-                                    <a href="#" class="text-dark font-weight-bold">Avant Garde King Pierre Cardin Takes
-                                        Brooklyn by Storm</a>
-                                </figcaption>
-                            </figure>
-                            <p>
-                                <small>
-                                    Historic and rarely seen work by the legendary designer - including clothing,
-                                    furniture,
-                                    and
-                                    films - are displayed in a fascinating retrospective at the Brooklyn Museum.
-                                </small>
-                            </p>
-                            <button class="border-0 btn-bg"><small>FASHION</small></button>
 
-                        </article>
-                        <article class="col-xs-12 col-md-6">
-                            <figure>
-                                <img src="images/sec2-art5.jpg" alt="Article 1" width="100%">
-                                <figcaption>
-                                    <a href="#" class="text-dark font-weight-bold">Liz Taylor's Emerald Rolls-Royce
-                                        Expected to Fetch Upwards of $2
-                                        Million</a>
-                                </figcaption>
-                            </figure>
-                            <p>
-                                <small>
-                                    Elizabeth Taylor's 1960 Rolls-Royce Silver Cloud II, dubbed "The Green Goddess",
-                                    will be
-                                    up
-                                    for auction in August.
-                                </small>
+                        <p class="">
+                            <span>
+                                <a href="#" class="text-dark font-weight-bold">Hong Kong Protests 'Unsettling' China as
+                                    Beijing Considers Troop Deployment</a>
+                            </span><br>
+                            What began as a movement against a new extradition law has spiraled into a larger conflict
+                            between Hong Kong residents and the Communist Party regime in Beijing.
+                        </p>
 
-                            </p>
-
-                            <button class="border-0 btn-bg"><small>CARS</small></button>
-                        </article>
                     </div>
 
-                </section>
 
-            </article>
-            <article>
-                <h6 class="text-muted mt-2">
-                    MORE STORIES
+
+                    <div class="clearfix pt-2 border-top">
+                        <img class="increaseimgSize float-left mr-2" src="images/sec2-art7.jpg" alt="">
+                        <p>
+                            <span>
+                                <a href="#" class="text-dark font-weight-bold">Jeffrey Epstein Reportedly Found Injured
+                                    in
+                                    Jail Cell With Marks Around Neck:
+                                    Report</a>
+                            </span><br>
+
+                            Billionaire Jeffrey Epstein was reportedly found in fetal position in his jail cell with
+                            marks
+                            around his neck.
+                        </p>
+
+                    </div>
+                    <div class="clearfix pt-2 border-top">
+                        <img class="increaseimgSize float-left mr-2" src="images/sec2-art8.jpg" alt="">
+                        <p>
+                            <span>
+                                <a href="#" class="text-dark font-weight-bold"> Refugee Women Could Contribute as Much
+                                    as
+                                    $1.6 Billion to U.S. GDP: Study</a>
+                            </span><br>
+
+
+                            "Refugees who do come to the U.S. have got a big productive contribution to make," said
+                            International Rescue Committee President and CEO David
+                        </p>
+
+                    </div>
+
+                    <div class="clearfix pt-2 border-top">
+                        <img class="increaseimgSize float-left mr-2" src="images/sec2-art9.jpg" alt="">
+                        <p>
+                            <span>
+                                <a href="#" class="text-dark font-weight-bold"> Russian Official: Abandoned Chemical
+                                    Factory
+                                    Could Cause 'Ecological
+                                    Chernobyl'</a>
+                            </span><br>
+                            Svetlana Radionova, chief of Russia's environmental watchdog, sounded the alarm over a
+                            dilapidated chemical factory in Siberia.
+                        </p>
+
+                    </div>
+
+                    <div class="clearfix pt-2 border-top">
+                        <img class="increaseimgSize float-left mr-2" src="images/sect2-art10.jpg" alt="">
+                        <p>
+                            <span>
+                                <a href="#" class="text-dark font-weight-bold">Museum Wildfire Update: Arizona Blaze
+                                    Engulfs
+                                    1,800 Acres, 12 Percent
+                                    Contained</a>
+                            </span><br>
+
+
+
+
+                            Around 600 firefighters are working to contain the blaze, which is located around 1 mile
+                            north
+                            of Flagstaff.
+                        </p>
+
+                    </div>
+
+                    <div class="clearfix pt-2 border-top">
+                        <img class="increaseimgSize float-left mr-2" src="images/sec2-art11.jpg" alt="">
+                        <p>
+                            <span>
+                                <a href="#" class="text-dark font-weight-bold"> Has North Korea Just Tested a New
+                                    Missile?
+                                    Weapon Flies 400 Miles</a>
+                            </span><br>
+
+
+
+
+
+                            The latest test is sure to increase tensions as Pyongyang and Washington attempt to restart
+                            talks on denuclearization and sanctions relief.
+                        </p>
+
+                    </div>
+
+                    <div class="clearfix pt-2 border-top">
+                        <img class="increaseimgSize float-left mr-2" src="images/sec2-art12.jpg" alt="">
+                        <p>
+                            <span>
+                                <a href="#" class="text-dark font-weight-bold">A$AP Rocky Charged With Aggravated
+                                    Assault,
+                                    Will Stay in Swedish Jail</a>
+                            </span><br>
+
+
+
+
+
+
+                            The rapper was arrested after an altercation in the street in Stockholm in a case that got
+                            the
+                            attention of President Donald Trump.
+                        </p>
+
+                    </div>
+
+                    <div class="clearfix pt-2 border-top">
+                        <img class="increaseimgSize float-left mr-2" src="images/sec2-art13.jpg" alt="">
+                        <p>
+                            <span>
+                                <a href="#" class="text-dark font-weight-bold"> The Polar Opposite Question Strategies
+                                    of
+                                    Robert Mueller by Lawmakers</a>
+                            </span><br>
+
+
+
+
+
+
+
+                            About the only similarity between Republicans and Democrats in questioning Robert Mueller
+                            was
+                            that both sides came prepared.
+                        </p>
+
+                    </div>
+                </article>
+
+            </section>
+            <section class=" col-md-3 order-md-first">
+                <h6 class="text-muted">
+                    FEATURED STORIES
                 </h6>
-                <div class="clearfix pt-2 border-top">
+                <article>
+                    <figure>
+                        <span class="d-flex position-relative">
+                            <img src="images/sec1-art1-img1.png" alt="Article 1" width="100%">
+                            <div class="myabsolute pr-2 pl-2 categories">
+                                ANALYSIS
+                            </div>
+                        </span>
 
-                    <img class="increaseimgSize float-left mr-2" src="images/sec2-art6.jpg" alt="">
-
-
-                    <p class="">
-                        <span>
-                            <a href="#" class="text-dark font-weight-bold">Hong Kong Protests 'Unsettling' China as
-                                Beijing Considers Troop Deployment</a>
-                        </span><br>
-                        What began as a movement against a new extradition law has spiraled into a larger conflict
-                        between Hong Kong residents and the Communist Party regime in Beijing.
-                    </p>
-
-                </div>
-
-
-
-                <div class="clearfix pt-2 border-top">
-                    <img class="increaseimgSize float-left mr-2" src="images/sec2-art7.jpg" alt="">
+                        <figcaption class="">
+                            <a href="#" class="text-dark font-weight-bold">The Newsweek Momentum Awards</a>
+                        </figcaption>
+                    </figure>
                     <p>
-                        <span>
-                            <a href="#" class="text-dark font-weight-bold">Jeffrey Epstein Reportedly Found Injured in
-                                Jail Cell With Marks Around Neck:
-                                Report</a>
-                        </span><br>
+                        <small class="smallLineHeiht">
+                            The Newsweek Momentum Awards will recognize five individuals around the globe, as well as
+                            one
+                            city,
+                            which will be chosen as the "smartest city in the world."
+                        </small>
 
-                        Billionaire Jeffrey Epstein was reportedly found in fetal position in his jail cell with marks
-                        around his neck.
                     </p>
 
-                </div>
-                <div class="clearfix pt-2 border-top">
-                    <img class="increaseimgSize float-left mr-2" src="images/sec2-art8.jpg" alt="">
+
+                </article>
+
+                <article>
+                    <figure>
+                        <span class="d-flex position-relative">
+                            <img src="images/sec1-art2.png" alt="Article 3" width="100%">
+                            <div class="myabsolute pr-2 pl-2 categories">
+                                US
+                            </div>
+                        </span>
+
+                        <figcaption>
+                            <a href="#" class="text-dark font-weight-bold"> Mueller's Testimony Largely Fails to Affect
+                                Lawmakers' Stances on Impeachment</a>
+                        </figcaption>
+                    </figure>
                     <p>
-                        <span>
-                            <a href="#" class="text-dark font-weight-bold"> Refugee Women Could Contribute as Much as
-                                $1.6 Billion to U.S. GDP: Study</a>
-                        </span><br>
-
-
-                        "Refugees who do come to the U.S. have got a big productive contribution to make," said
-                        International Rescue Committee President and CEO David
+                        Nearly all Democrats appeared to publicly remain within their respective anti- or
+                        pro-impeachment
+                        camps. Democratic leadership also continued to pour cold water on the idea.
                     </p>
 
-                </div>
+                </article>
 
-                <div class="clearfix pt-2 border-top">
-                    <img class="increaseimgSize float-left mr-2" src="images/sec2-art9.jpg" alt="">
+
+
+
+                <article>
+
+                    <figure>
+                        <span class="d-flex position-relative">
+                            <img src="images/sec1-art3.png" alt="Article 1" width="100%">
+                            <div class="myabsolute pr-2 pl-2 categories">
+                                WORLD
+                            </div>
+                        </span>
+
+                        <figcaption>
+                            <a href="#" class="text-dark font-weight-bold">Russia Vows Support for Cuba, Including
+                                'Military
+                                Technical' Amid Sanctions</a>
+                        </figcaption>
+                    </figure>
                     <p>
-                        <span>
-                            <a href="#" class="text-dark font-weight-bold"> Russian Official: Abandoned Chemical Factory
-                                Could Cause 'Ecological
-                                Chernobyl'</a>
-                        </span><br>
-                        Svetlana Radionova, chief of Russia's environmental watchdog, sounded the alarm over a
-                        dilapidated chemical factory in Siberia.
+                        Russian Foreign Minister Sergey Lavrov called the U.S. blockade on Cuba "unacceptable" and
+                        "unlawful
+                        economic coercion."
                     </p>
 
-                </div>
+                </article>
+                <article>
 
-                <div class="clearfix pt-2 border-top">
-                    <img class="increaseimgSize float-left mr-2" src="images/sect2-art10.jpg" alt="">
+                    <figure>
+                        <span class="d-flex position-relative">
+                            <img src="images/sec1-art4.png" alt="Article 4" width="100%">
+                            <div class="myabsolute pr-2 pl-2 categories">
+                                EDITOR'S NOTE
+                            </div>
+                        </span>
+
+                        <figcaption>
+                            <a href="#" class="text-dark font-weight-bold">To Our Readers:</a>
+                        </figcaption>
+                    </figure>
                     <p>
-                        <span>
-                            <a href="#" class="text-dark font-weight-bold">Museum Wildfire Update: Arizona Blaze Engulfs
-                                1,800 Acres, 12 Percent
-                                Contained</a>
-                        </span><br>
-
-
-
-
-                        Around 600 firefighters are working to contain the blaze, which is located around 1 mile north
-                        of Flagstaff.
+                        We always want to hear from you, and to make that easier, we've implemented a new commenting
+                        forum.
+                        Take a look at the bottom of Newsweek articles. Spot.IM is a tool that helps readers respond to
+                        our
+                        stories and communicate with one another—and with us. Ask us a question, embed a GIF, point out
+                        a
+                        mistake. Be civil and respectful, please. And most important: Be in touch.
                     </p>
 
-                </div>
+                </article>
+                <article>
+                    <figure>
+                        <span class="d-flex position-relative">
+                            <img src="images/sec1-art5.png" alt="Article 5" width="100%">
+                            <div class="myabsolute pr-2 pl-2 categories">
+                                SURVEY
+                            </div>
+                        </span>
 
-                <div class="clearfix pt-2 border-top">
-                    <img class="increaseimgSize float-left mr-2" src="images/sec2-art11.jpg" alt="">
+                        <figcaption>
+                            <a href="#" class="text-dark font-weight-bold">Best Nursing Homes</a>
+                        </figcaption>
+                    </figure>
                     <p>
-                        <span>
-                            <a href="#" class="text-dark font-weight-bold"> Has North Korea Just Tested a New Missile?
-                                Weapon Flies 400 Miles</a>
-                        </span><br>
-
-
-
-
-
-                        The latest test is sure to increase tensions as Pyongyang and Washington attempt to restart
-                        talks on denuclearization and sanctions relief.
-                    </p>
-
-                </div>
-
-                <div class="clearfix pt-2 border-top">
-                    <img class="increaseimgSize float-left mr-2" src="images/sec2-art12.jpg" alt="">
-                    <p>
-                        <span>
-                            <a href="#" class="text-dark font-weight-bold">A$AP Rocky Charged With Aggravated Assault,
-                                Will Stay in Swedish Jail</a>
-                        </span><br>
-
-
-
-
-
-
-                        The rapper was arrested after an altercation in the street in Stockholm in a case that got the
-                        attention of President Donald Trump.
-                    </p>
-
-                </div>
-
-                <div class="clearfix pt-2 border-top">
-                    <img class="increaseimgSize float-left mr-2" src="images/sec2-art13.jpg" alt="">
-                    <p>
-                        <span>
-                            <a href="#" class="text-dark font-weight-bold"> The Polar Opposite Question Strategies of
-                                Robert Mueller by Lawmakers</a>
-                        </span><br>
-
-
-
-
-
-
-
-                        About the only similarity between Republicans and Democrats in questioning Robert Mueller was
-                        that both sides came prepared.
-                    </p>
-
-                </div>
-            </article>
-
-        </section>
-        <section class=" col-md-3 order-md-first">
-            <h6 class="text-muted">
-                FEATURED STORIES
-            </h6>
-            <article>
-                <figure>
-                    <span class="d-flex position-relative">
-                        <img src="images/sec1-art1-img1.png" alt="Article 1" width="100%">
-                        <div class="myabsolute pr-2 pl-2 categories">
-                            ANALYSIS
-                        </div>
-                    </span>
-
-                    <figcaption class="">
-                        <a href="#" class="text-dark font-weight-bold">The Newsweek Momentum Awards</a>
-                    </figcaption>
-                </figure>
-                <p>
-                    <small class="smallLineHeiht">
                         The Newsweek Momentum Awards will recognize five individuals around the globe, as well as one
                         city,
                         which will be chosen as the "smartest city in the world."
-                    </small>
-
-                </p>
-
-
-            </article>
-
-            <article>
-                <figure>
-                    <span class="d-flex position-relative">
-                        <img src="images/sec1-art2.png" alt="Article 3" width="100%">
-                        <div class="myabsolute pr-2 pl-2 categories">
-                            US
-                        </div>
-                    </span>
-
-                    <figcaption>
-                        <a href="#" class="text-dark font-weight-bold"> Mueller's Testimony Largely Fails to Affect
-                            Lawmakers' Stances on Impeachment</a>
-                    </figcaption>
-                </figure>
-                <p>
-                    Nearly all Democrats appeared to publicly remain within their respective anti- or pro-impeachment
-                    camps. Democratic leadership also continued to pour cold water on the idea.
-                </p>
-
-            </article>
-
-
-
-
-            <article>
-
-                <figure>
-                    <span class="d-flex position-relative">
-                        <img src="images/sec1-art3.png" alt="Article 1" width="100%">
-                        <div class="myabsolute pr-2 pl-2 categories">
-                            WORLD
-                        </div>
-                    </span>
-
-                    <figcaption>
-                        <a href="#" class="text-dark font-weight-bold">Russia Vows Support for Cuba, Including 'Military
-                            Technical' Amid Sanctions</a>
-                    </figcaption>
-                </figure>
-                <p>
-                    Russian Foreign Minister Sergey Lavrov called the U.S. blockade on Cuba "unacceptable" and "unlawful
-                    economic coercion."
-                </p>
-
-            </article>
-            <article>
-
-                <figure>
-                    <span class="d-flex position-relative">
-                        <img src="images/sec1-art4.png" alt="Article 4" width="100%">
-                        <div class="myabsolute pr-2 pl-2 categories">
-                            EDITOR'S NOTE
-                        </div>
-                    </span>
-
-                    <figcaption>
-                        <a href="#" class="text-dark font-weight-bold">To Our Readers:</a>
-                    </figcaption>
-                </figure>
-                <p>
-                    We always want to hear from you, and to make that easier, we've implemented a new commenting forum.
-                    Take a look at the bottom of Newsweek articles. Spot.IM is a tool that helps readers respond to our
-                    stories and communicate with one another—and with us. Ask us a question, embed a GIF, point out a
-                    mistake. Be civil and respectful, please. And most important: Be in touch.
-                </p>
-
-            </article>
-            <article>
-                <figure>
-                    <span class="d-flex position-relative">
-                        <img src="images/sec1-art5.png" alt="Article 5" width="100%">
-                        <div class="myabsolute pr-2 pl-2 categories">
-                            SURVEY
-                        </div>
-                    </span>
-
-                    <figcaption>
-                        <a href="#" class="text-dark font-weight-bold">Best Nursing Homes</a>
-                    </figcaption>
-                </figure>
-                <p>
-                    The Newsweek Momentum Awards will recognize five individuals around the globe, as well as one city,
-                    which will be chosen as the "smartest city in the world."
-                </p>
-
-
-            </article>
-            <article>
-                <figure>
-                    <span class="d-flex position-relative">
-                        <img src="images/sec1-art1-img1.png" alt="Article 1" width="100%">
-                        <div class="myabsolute pr-2 pl-2 categories">
-                            SPONSORED INSIGHT
-                        </div>
-                    </span>
-
-                    <figcaption>
-                        <a href="#" class="text-dark font-weight-bold">Why IB schools lead to a better degree for your
-                            child</a>
-                    </figcaption>
-                </figure>
-                <p>
-                    The International Baccalaureate (IB) accredited schools inspire young people to become lifelong
-                    learners and academic high achievers - find out more.
-                </p>
-
-
-            </article>
-        </section>
-
-
-        <section class=" col-md-3">
-            <h6 class="text-muted">
-                OPINION
-            </h6>
-            <article class="clearfix">
-                <img class="float-left mr-2" src="images/sec3-art1.png" alt="Article 1">
-                <p class="smallLineHeiht">
-                    <a href="#" class="text-dark font-weight-bold">
-                        <small><b>No Collusion? No Obstruction? Hardly. Mueller Obliterates Barr's Narrative</b></small>
-                    </a> <br>
-                    <span class="text-muted">
-                        <small>
-                            BY NICK AKERMAN
-                        </small>
-
-                    </span>
-
-                </p>
-
-
-            </article>
-
-            <article class="clearfix pt-2 pb-2 border-top">
-                <img class="float-left mr-2" src="images/sec3-art2.png" alt="Article 1">
-                <p class="smallLineHeiht">
-                    <a href="#" class="text-dark font-weight-bold">
-                        <small><b>
-                                A Three-Step Guide to De-Escalating the Conflict With Iran
-                            </b></small>
-
-                    </a> <br>
-                    <span class="text-muted">
-                        <small>
-                            BY DANIEL R. DEPETRIS
-                        </small>
-
-                    </span>
-
-                </p>
-
-
-            </article>
-
-
-            <article class="clearfix pt-2 border-top">
-                <img class="float-left mr-2" src="images/sec3-art1.png" alt="Article 1">
-                <p class="smallLineHeiht">
-                    <a href="#" class="text-dark font-weight-bold">
-                        <small><b>No Collusion? No Obstruction? Hardly. Mueller Obliterates Barr's Narrative</b></small>
-                    </a> <br>
-                    <span class="text-muted">
-                        <small>
-                            BY NICK AKERMAN
-                        </small>
-
-                    </span>
-
-                </p>
-
-
-            </article>
-
-
-            <article class="clearfix pt-2 pb-2 border-top">
-                <img class="float-left mr-2" src="images/sec3-art2.png" alt="Article 1">
-                <p class="smallLineHeiht">
-                    <a href="#" class="text-dark font-weight-bold">
-                        <small><b>
-                                A Three-Step Guide to De-Escalating the Conflict With Iran
-                            </b></small>
-
-                    </a> <br>
-                    <span class="text-muted">
-                        <small>
-                            BY DANIEL R. DEPETRIS
-                        </small>
-
-                    </span>
-
-                </p>
-
-
-            </article>
-
-            <article class="clearfix pt-2 pb-2 border-top">
-                <img class="float-left mr-2" src="images/sec3-art1.png" alt="Article 1">
-                <p class="smallLineHeiht">
-                    <a href="#" class="text-dark font-weight-bold">
-                        <small><b>No Collusion? No Obstruction? Hardly. Mueller Obliterates Barr's Narrative</b></small>
-                    </a> <br>
-                    <span class="text-muted">
-                        <small>
-                            BY NICK AKERMAN
-                        </small>
-
-                    </span>
-
-                </p>
-
-
-            </article>
-
-
-            <article class="clearfix pt-2 pb-2 border-top">
-                <img class="float-left mr-2" src="images/sec3-art2.png" alt="Article 1">
-                <p class="smallLineHeiht">
-                    <a href="#" class="text-dark font-weight-bold">
-                        <small><b>
-                                A Three-Step Guide to De-Escalating the Conflict With Iran
-                            </b></small>
-
-                    </a> <br>
-                    <span class="text-muted">
-                        <small>
-                            BY DANIEL R. DEPETRIS
-                        </small>
-
-                    </span>
-
-                </p>
-
-
-            </article>
-
-
-
-
-
-            <article>
+                    </p>
+
+
+                </article>
+                <article>
+                    <figure>
+                        <span class="d-flex position-relative">
+                            <img src="images/sec1-art1-img1.png" alt="Article 1" width="100%">
+                            <div class="myabsolute pr-2 pl-2 categories">
+                                SPONSORED INSIGHT
+                            </div>
+                        </span>
+
+                        <figcaption>
+                            <a href="#" class="text-dark font-weight-bold">Why IB schools lead to a better degree for
+                                your
+                                child</a>
+                        </figcaption>
+                    </figure>
+                    <p>
+                        The International Baccalaureate (IB) accredited schools inspire young people to become lifelong
+                        learners and academic high achievers - find out more.
+                    </p>
+
+
+                </article>
+            </section>
+
+
+            <section class=" col-md-3">
                 <h6 class="text-muted">
-                    LATEST NEWS
+                    OPINION
                 </h6>
-                <div class="clearfix pb-2">
-                    <img class="float-left mr-2" src="images/sec3-art3.jpg" alt="" width="135" height="90">
+                <article class="clearfix">
+                    <img class="float-left mr-2" src="images/sec3-art1.png" alt="Article 1">
                     <p class="smallLineHeiht">
-                        <a href="#" class="text-dark">
+                        <a href="#" class="text-dark font-weight-bold">
+                            <small><b>No Collusion? No Obstruction? Hardly. Mueller Obliterates Barr's
+                                    Narrative</b></small>
+                        </a> <br>
+                        <span class="text-muted">
                             <small>
-                                <b>
-                                    tree stump
-                                    Living Tree Stump That Survives by Feasting from Its Neighbors Discovered
-                                </b>
+                                BY NICK AKERMAN
                             </small>
 
-                        </a>
-                    </p>
-                </div>
+                        </span>
 
-                <div class="clearfix pt-2 border-top pb-2">
-                    <img class="float-left mr-2" src="images/sec3-art4.jpg" alt="" width="135" height="90">
+                    </p>
+
+
+                </article>
+
+                <article class="clearfix pt-2 pb-2 border-top">
+                    <img class="float-left mr-2" src="images/sec3-art2.png" alt="Article 1">
                     <p class="smallLineHeiht">
-                        <a href="#" class="text-dark">
+                        <a href="#" class="text-dark font-weight-bold">
+                            <small><b>
+                                    A Three-Step Guide to De-Escalating the Conflict With Iran
+                                </b></small>
+
+                        </a> <br>
+                        <span class="text-muted">
                             <small>
-                                <b>
-                                    Area 51 Meme Starts Cultural Movement: Inside New Plan For Breaking Secrecy
-                                </b>
+                                BY DANIEL R. DEPETRIS
                             </small>
 
-                        </a>
-                    </p>
-                </div>
+                        </span>
 
-                <div class="clearfix pt-2 border-top pb-2">
-                    <img class="float-left mr-2" src="images/sec3-art5.png" alt="" width="135" height="90">
+                    </p>
+
+
+                </article>
+
+
+                <article class="clearfix pt-2 border-top">
+                    <img class="float-left mr-2" src="images/sec3-art1.png" alt="Article 1">
                     <p class="smallLineHeiht">
-                        <a href="#" class="text-dark">
+                        <a href="#" class="text-dark font-weight-bold">
+                            <small><b>No Collusion? No Obstruction? Hardly. Mueller Obliterates Barr's
+                                    Narrative</b></small>
+                        </a> <br>
+                        <span class="text-muted">
                             <small>
-                                <b>
-                                    Beyond Meat Is Working on Plant-Based Alternatives to Bacon and Steak
-                                </b>
+                                BY NICK AKERMAN
                             </small>
 
-                        </a>
+                        </span>
+
                     </p>
-                </div>
 
 
-                <div class="clearfix pt-2 border-top pb-2">
-                    <img class="float-left mr-2" src="images/sec3-art6.jpg" alt="" width="135" height="90">
+                </article>
+
+
+                <article class="clearfix pt-2 pb-2 border-top">
+                    <img class="float-left mr-2" src="images/sec3-art2.png" alt="Article 1">
                     <p class="smallLineHeiht">
-                        <a href="#" class="text-dark">
+                        <a href="#" class="text-dark font-weight-bold">
+                            <small><b>
+                                    A Three-Step Guide to De-Escalating the Conflict With Iran
+                                </b></small>
+
+                        </a> <br>
+                        <span class="text-muted">
                             <small>
-                                <b>
-                                    Could Donald Trump and New U.K. PM Boris Johnson Fall Out over Iran?
-                                </b>
+                                BY DANIEL R. DEPETRIS
                             </small>
 
-                        </a>
-                    </p>
-                </div>
+                        </span>
 
-                <div class="clearfix pt-2 border-top pb-2">
-                    <img class="float-left mr-2" src="images/sec3-art7.jpg" alt="" width="135" height="90">
+                    </p>
+
+
+                </article>
+
+                <article class="clearfix pt-2 pb-2 border-top">
+                    <img class="float-left mr-2" src="images/sec3-art1.png" alt="Article 1">
                     <p class="smallLineHeiht">
-                        <a href="#" class="text-dark">
+                        <a href="#" class="text-dark font-weight-bold">
+                            <small><b>No Collusion? No Obstruction? Hardly. Mueller Obliterates Barr's
+                                    Narrative</b></small>
+                        </a> <br>
+                        <span class="text-muted">
                             <small>
-                                <b>
-                                    Republicans 'Have Flung Open Their Arms' for Russia, MSNBC Host Says
-                                </b>
+                                BY NICK AKERMAN
                             </small>
 
-                        </a>
-                    </p>
-                </div>
+                        </span>
 
-                <div class="clearfix pt-2 border-top pb-2">
-                    <img class="float-left mr-2" src="images/sec3-art8.jpg" alt="" width="135" height="90">
+                    </p>
+
+
+                </article>
+
+
+                <article class="clearfix pt-2 pb-2 border-top">
+                    <img class="float-left mr-2" src="images/sec3-art2.png" alt="Article 1">
                     <p class="smallLineHeiht">
-                        <a href="#" class="text-dark">
+                        <a href="#" class="text-dark font-weight-bold">
+                            <small><b>
+                                    A Three-Step Guide to De-Escalating the Conflict With Iran
+                                </b></small>
+
+                        </a> <br>
+                        <span class="text-muted">
                             <small>
-                                <b>
-                                    Republicans 'Have Flung Open Their Arms' for Russia, MSNBC Host Says
-                                </b>
+                                BY DANIEL R. DEPETRIS
                             </small>
 
-                        </a>
+                        </span>
+
                     </p>
-                </div>
-                <div class="clearfix pt-2 border-top pb-2">
-                    <img class="float-left mr-2" src="images/sec3-art9.jpg" alt="" width="135" height="90">
-                    <p class="smallLineHeiht">
-                        <a href="#" class="text-dark">
 
-                            <small>
-                                <b>
-                                    Republicans 'Have Flung Open Their Arms' for Russia, MSNBC Host Says
-                                </b>
-                            </small>
 
-                        </a>
-                    </p>
-                </div>
-            </article>
+                </article>
 
 
 
 
 
-            <article class="mb-2 mt-4">
+                <article>
+                    <h6 class="text-muted">
+                        LATEST NEWS
+                    </h6>
+                    <div class="clearfix pb-2">
+                        <img class="float-left mr-2" src="images/sec3-art3.jpg" alt="" width="135" height="90">
+                        <p class="smallLineHeiht">
+                            <a href="#" class="text-dark">
+                                <small>
+                                    <b>
+                                        tree stump
+                                        Living Tree Stump That Survives by Feasting from Its Neighbors Discovered
+                                    </b>
+                                </small>
 
-                <figure>
-                    <span class="d-flex position-relative">
-                        <img src="images/sec3-art9.jpg" alt="Article 1" width="100%">
-                        <div class="myabsolute pr-2 pl-2 categories lightBlue">
-                            SPONSORED INSIGHT
-                        </div>
-                    </span>
-
-                    <figcaption class="border p-2">
-                        <a href="#" class="text-dark font-weight-bold smallLineHeiht"><span class="smallLineHeiht">
-                                What can a career in public affairs, policy &
-                                administration do for you?
-                            </span></a>
-                        <p class="smallLineHeiht mt-2">
-                            <small>
-                                Find out what positions in this challenging and rewarding field entail and how you can
-                                get
-                                the
-                                necessary qualifications.
-                            </small>
-
+                            </a>
                         </p>
-                    </figcaption>
-                </figure>
-            </article>
+                    </div>
 
+                    <div class="clearfix pt-2 border-top pb-2">
+                        <img class="float-left mr-2" src="images/sec3-art4.jpg" alt="" width="135" height="90">
+                        <p class="smallLineHeiht">
+                            <a href="#" class="text-dark">
+                                <small>
+                                    <b>
+                                        Area 51 Meme Starts Cultural Movement: Inside New Plan For Breaking Secrecy
+                                    </b>
+                                </small>
 
-            <article class="mt-3 p-3 html-bg col-5 offset-3 offset-md-0 col-md-12 ">
-                <p class="font-weight-bold">
-                    <span class="icon-n">
-
-                    </span>
-                    SIGN UP FOR OUR NEWSLETTER
-                </p>
-                <button class="border-0 p-1" style="background-color: #666">
-                    SIGN UP <i class="fas fa-chevron-right"></i>
-                </button>
-                <p>
-                    <small>Update your preferences »</small>
-                </p>
-            </article>
-
-
-            <article class="mt-4">
-
-                <figure>
-                    <span class="d-flex position-relative">
-                        <img src="images/sec3-art10.jpg" alt="Article 1" width="100%">
-                        <div class="myabsolute pr-2 pl-2 categories lightBlue">
-                            SPECIAL EDITION
-                        </div>
-                    </span>
-
-                    <figcaption class="border p-2">
-                        <a href="#" class="text-dark font-weight-bold smallLineHeiht"> The Ultimate Guide to CBD</a>
-                        <p class="smallLineHeiht mt-2">
-                            <small>
-                                Heralded as “magic” by Tommy Chong, CBD is more than just a trendy buzzword. In this
-                                Special
-                                Edition
-                                from Newsweek, learn everything you need to know about CBD, from potential uses to the
-                                ever-changing
-                                legislation surrounding it.
-                            </small>
-
+                            </a>
                         </p>
-                    </figcaption>
-                </figure>
-            </article>
+                    </div>
+
+                    <div class="clearfix pt-2 border-top pb-2">
+                        <img class="float-left mr-2" src="images/sec3-art5.png" alt="" width="135" height="90">
+                        <p class="smallLineHeiht">
+                            <a href="#" class="text-dark">
+                                <small>
+                                    <b>
+                                        Beyond Meat Is Working on Plant-Based Alternatives to Bacon and Steak
+                                    </b>
+                                </small>
+
+                            </a>
+                        </p>
+                    </div>
 
 
-        </section>
-    </div>
+                    <div class="clearfix pt-2 border-top pb-2">
+                        <img class="float-left mr-2" src="images/sec3-art6.jpg" alt="" width="135" height="90">
+                        <p class="smallLineHeiht">
+                            <a href="#" class="text-dark">
+                                <small>
+                                    <b>
+                                        Could Donald Trump and New U.K. PM Boris Johnson Fall Out over Iran?
+                                    </b>
+                                </small>
+
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="clearfix pt-2 border-top pb-2">
+                        <img class="float-left mr-2" src="images/sec3-art7.jpg" alt="" width="135" height="90">
+                        <p class="smallLineHeiht">
+                            <a href="#" class="text-dark">
+                                <small>
+                                    <b>
+                                        Republicans 'Have Flung Open Their Arms' for Russia, MSNBC Host Says
+                                    </b>
+                                </small>
+
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="clearfix pt-2 border-top pb-2">
+                        <img class="float-left mr-2" src="images/sec3-art8.jpg" alt="" width="135" height="90">
+                        <p class="smallLineHeiht">
+                            <a href="#" class="text-dark">
+                                <small>
+                                    <b>
+                                        Republicans 'Have Flung Open Their Arms' for Russia, MSNBC Host Says
+                                    </b>
+                                </small>
+
+                            </a>
+                        </p>
+                    </div>
+                    <div class="clearfix pt-2 border-top pb-2">
+                        <img class="float-left mr-2" src="images/sec3-art9.jpg" alt="" width="135" height="90">
+                        <p class="smallLineHeiht">
+                            <a href="#" class="text-dark">
+
+                                <small>
+                                    <b>
+                                        Republicans 'Have Flung Open Their Arms' for Russia, MSNBC Host Says
+                                    </b>
+                                </small>
+
+                            </a>
+                        </p>
+                    </div>
+                </article>
 
 
-    <div class="row">
-        <section class="col-md-4">
-            <article>
 
-                <figure>
-                    <span class="d-flex position-relative">
-                        <img src="images/sect4-art1.jpg" alt="Article 1" width="100%">
-                        <div class="myabsolute pr-2 pl-2 categories">
-                            JULY 26 ISSUES
-                        </div>
-                    </span>
 
-                    <figcaption class="text-center">
-                        <a href="#" class="text-dark font-weight-bold">SEE ALL FEATURES <i
-                                class="fas fa-chevron-right"></i></a>
-                    </figcaption>
-                </figure>
 
-            </article>
+                <article class="mb-2 mt-4">
 
-            <article>
+                    <figure>
+                        <span class="d-flex position-relative">
+                            <img src="images/sec3-art9.jpg" alt="Article 1" width="100%">
+                            <div class="myabsolute pr-2 pl-2 categories lightBlue">
+                                SPONSORED INSIGHT
+                            </div>
+                        </span>
 
-                <figure>
-                    <span class="d-flex position-relative">
-                        <img src="images/sect4-art2.jpg" alt="Article 1" width="100%" height="290">
+                        <figcaption class="border p-2">
+                            <a href="#" class="text-dark font-weight-bold smallLineHeiht"><span class="smallLineHeiht">
+                                    What can a career in public affairs, policy &
+                                    administration do for you?
+                                </span></a>
+                            <p class="smallLineHeiht mt-2">
+                                <small>
+                                    Find out what positions in this challenging and rewarding field entail and how you
+                                    can
+                                    get
+                                    the
+                                    necessary qualifications.
+                                </small>
 
-                    </span>
+                            </p>
+                        </figcaption>
+                    </figure>
+                </article>
 
-                    <figcaption>
+
+                <article class="mt-3 p-3 html-bg col-5 offset-3 offset-md-0 col-md-12 ">
+                    <p class="font-weight-bold">
+                        <span class="icon-n">
+
+                        </span>
+                        SIGN UP FOR OUR NEWSLETTER
+                    </p>
+                    <button class="border-0 p-1" style="background-color: #666">
+                        SIGN UP <i class="fas fa-chevron-right"></i>
+                    </button>
+                    <p>
+                        <small>Update your preferences »</small>
+                    </p>
+                </article>
+
+
+                <article class="mt-4">
+
+                    <figure>
+                        <span class="d-flex position-relative">
+                            <img src="images/sec3-art10.jpg" alt="Article 1" width="100%">
+                            <div class="myabsolute pr-2 pl-2 categories lightBlue">
+                                SPECIAL EDITION
+                            </div>
+                        </span>
+
+                        <figcaption class="border p-2">
+                            <a href="#" class="text-dark font-weight-bold smallLineHeiht"> The Ultimate Guide to CBD</a>
+                            <p class="smallLineHeiht mt-2">
+                                <small>
+                                    Heralded as “magic” by Tommy Chong, CBD is more than just a trendy buzzword. In this
+                                    Special
+                                    Edition
+                                    from Newsweek, learn everything you need to know about CBD, from potential uses to
+                                    the
+                                    ever-changing
+                                    legislation surrounding it.
+                                </small>
+
+                            </p>
+                        </figcaption>
+                    </figure>
+                </article>
+
+
+            </section>
+        </div>
+
+
+        <div class="row">
+            <section class="col-md-4">
+                <article>
+
+                    <figure>
+                        <span class="d-flex position-relative">
+                            <img src="images/sect4-art1.jpg" alt="Article 1" width="100%">
+                            <div class="myabsolute pr-2 pl-2 categories">
+                                JULY 26 ISSUES
+                            </div>
+                        </span>
+
+                        <figcaption class="text-center">
+                            <a href="#" class="text-dark font-weight-bold">SEE ALL FEATURES <i
+                                    class="fas fa-chevron-right"></i></a>
+                        </figcaption>
+                    </figure>
+
+                </article>
+
+                <article>
+
+                    <figure>
+                        <span class="d-flex position-relative">
+                            <img src="images/sect4-art2.jpg" alt="Article 1" width="100%" height="290">
+
+                        </span>
+
+                        <figcaption>
+                            <p>
+                                <button class="red-bg text-white border-0 font-weight-bold">
+                                    SIGN IN
+                                </button>
+                                <button class="bg-light red-text border-0 font-weight-bold">
+                                    SUBSCRIBE <i class="fas fa-chevron-right"></i>
+                                </button>
+
+                            </p>
+                            <a href="#" class="text-dark font-weight-bold">How Harvard Caved to Students and Fired Its
+                                First
+                                Black Faculty Dean <i class="fas fa-chevron-right"></i></a>
+                        </figcaption>
+                    </figure>
+
+                </article>
+            </section>
+
+            <section class=" col-md-8">
+
+                <h5 class="text-center border-bottom font-weight-bold">
+                    IN THE MAGAZINE
+                </h5>
+
+                <article class="row">
+                    <div class="col-md-4">
+                        <img src="images/sect5-art1.jpg" alt="Article 1" width="100%" height="290">
                         <p>
                             <button class="red-bg text-white border-0 font-weight-bold">
-                                SIGN IN
+                                HEALTH
                             </button>
                             <button class="bg-light red-text border-0 font-weight-bold">
-                                SUBSCRIBE <i class="fas fa-chevron-right"></i>
+                                COVER
                             </button>
 
                         </p>
-                        <a href="#" class="text-dark font-weight-bold">How Harvard Caved to Students and Fired Its First
-                            Black Faculty Dean <i class="fas fa-chevron-right"></i></a>
-                    </figcaption>
-                </figure>
+                        <P>
+                            <a href="#" class="text-dark font-weight-bold">How Harvard Caved to Students and Fired Its
+                                First
+                                Black Faculty Dean </a>
+                        </P>
+                    </div>
 
-            </article>
+                    <div class="col-md-4">
+                        <img src="images/sect5-art2.jpg" alt="Article 1" width="100%" height="290">
+                        <p>
+                            <button class="red-bg text-white border-0 font-weight-bold">
+                                HEALTH
+                            </button>
+                            <button class="bg-light red-text border-0 font-weight-bold">
+                                FEATURES
+                            </button>
+
+                        </p>
+                        <P>
+                            <a href="#" class="text-dark font-weight-bold">How Harvard Caved to Students and Fired Its
+                                First
+                                Black Faculty Dean </a>
+                        </P>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="images/sect5-art3.jpg" alt="Article 1" width="100%" height="290">
+                        <p>
+                            <button class="red-bg text-white border-0 font-weight-bold">
+                                HEALTH
+                            </button>
+                            <button class="bg-light red-text border-0 font-weight-bold">
+                                FEATURES
+                            </button>
+
+                        </p>
+                        <P>
+                            <a href="#" class="text-dark font-weight-bold">How Harvard Caved to Students and Fired Its
+                                First
+                                Black Faculty Dean </a>
+                        </P>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="images/sect5-art4.jpg" alt="Article 1" width="100%" height="290">
+                        <p>
+                            <button class="red-bg text-white border-0 font-weight-bold">
+                                HEALTH
+                            </button>
+                            <button class="bg-light red-text border-0 font-weight-bold">
+                                FEATURES
+                            </button>
+
+                        </p>
+                        <P>
+                            <a href="#" class="text-dark font-weight-bold">How Harvard Caved to Students and Fired Its
+                                First
+                                Black Faculty Dean </a>
+                        </P>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="images/sect5-art5.jpg" alt="Article 1" width="100%" height="290">
+                        <p>
+                            <button class="red-bg text-white border-0 font-weight-bold">
+                                HEALTH
+                            </button>
+                            <button class="bg-light red-text border-0 font-weight-bold">
+                                FEATURES
+                            </button>
+
+                        </p>
+                        <P>
+                            <a href="#" class="text-dark font-weight-bold">How Harvard Caved to Students and Fired Its
+                                First
+                                Black Faculty Dean </a>
+                        </P>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="images/sect5-art6.jpg" alt="Article 1" width="100%" height="290">
+                        <p>
+                            <button class="red-bg text-white border-0 font-weight-bold">
+                                HEALTH
+                            </button>
+                            <button class="bg-light red-text border-0 font-weight-bold">
+                                FEATURES
+                            </button>
+
+                        </p>
+                        <P>
+                            <a href="#" class="text-dark font-weight-bold">How Harvard Caved to Students and Fired Its
+                                First
+                                Black Faculty Dean </a>
+                        </P>
+                    </div>
+
+                </article>
+
+            </section>
+        </div>
+
+        <section>
+            <h6 class="text-center border-bottom pb-1">
+                EDITOR'S PICK
+            </h6>
+            <div class="row mt-3">
+                <article class="col-md-3">
+                    <figure>
+                        <span class="d-flex position-relative">
+                            <img src="images/sect6-art1.jpg" alt="Article 1" width="100%">
+                            <div class="myabsolute pr-2 pl-2 categories">
+                                ANALYSIS
+                            </div>
+                        </span>
+
+                        <figcaption>
+                            <a href="#" class="text-dark font-weight-bold">Young 'Trumpkins' Showcase His Hold on the
+                                GOP's
+                                Future</a>
+                        </figcaption>
+                    </figure>
+                    <p>
+                        Celebrating all things Trump, conservative students (metaphorically) gave the finger to
+                        political
+                        correctness and socialism.
+                    </p>
+
+                </article>
+
+                <article class="col-md-3">
+
+                    <figure>
+                        <span class="d-flex position-relative">
+                            <img src="images/sect6-art2.jpg" alt="Article 1" width="100%">
+                            <div class="myabsolute pr-2 pl-2 categories">
+                                ANALYSIS
+                            </div>
+                        </span>
+
+                        <figcaption>
+                            <a href="#" class="text-dark font-weight-bold">Young 'Trumpkins' Showcase His Hold on the
+                                GOP's
+                                Future</a>
+                        </figcaption>
+                    </figure>
+                    <p>
+                        Celebrating all things Trump, conservative students (metaphorically) gave the finger to
+                        political
+                        correctness and socialism.
+                    </p>
+                </article>
+                <article class="col-md-3">
+
+                    <figure>
+                        <span class="d-flex position-relative">
+                            <img src="images/scet6-art3.jpg" alt="Article 1" width="100%">
+                            <div class="myabsolute pr-2 pl-2 categories">
+                                ANALYSIS
+                            </div>
+                        </span>
+
+                        <figcaption>
+                            <a href="#" class="text-dark font-weight-bold">Young 'Trumpkins' Showcase His Hold on the
+                                GOP's
+                                Future</a>
+                        </figcaption>
+                    </figure>
+                    <p>
+                        Celebrating all things Trump, conservative students (metaphorically) gave the finger to
+                        political
+                        correctness and socialism.
+                    </p>
+                </article>
+                <article class="col-md-3">
+
+                    <figure>
+                        <span class="d-flex position-relative">
+                            <img src="images/sect6-art4.jpg" alt="Article 1" width="100%">
+                            <div class="myabsolute pr-2 pl-2 categories">
+                                ANALYSIS
+                            </div>
+                        </span>
+
+                        <figcaption>
+                            <a href="#" class="text-dark font-weight-bold">Young 'Trumpkins' Showcase His Hold on the
+                                GOP's
+                                Future</a>
+                        </figcaption>
+                    </figure>
+                    <p>
+                        Celebrating all things Trump, conservative students (metaphorically) gave the finger to
+                        political
+                        correctness and socialism.
+                    </p>
+                </article>
+                <article class="col-md-3">
+
+                    <figure>
+                        <span class="d-flex position-relative">
+                            <img src="images/sect6-art5.jpg" alt="Article 1" width="100%">
+                            <div class="myabsolute pr-2 pl-2 categories">
+                                ANALYSIS
+                            </div>
+                        </span>
+
+                        <figcaption>
+                            <a href="#" class="text-dark font-weight-bold">Young 'Trumpkins' Showcase His Hold on the
+                                GOP's
+                                Future</a>
+                        </figcaption>
+                    </figure>
+                    <p>
+                        Celebrating all things Trump, conservative students (metaphorically) gave the finger to
+                        political
+                        correctness and socialism.
+                    </p>
+                </article>
+                <article class="col-md-3">
+
+                    <figure>
+                        <span class="d-flex position-relative">
+                            <img src="images/sect6-art6.jpg" alt="Article 1" width="100%">
+                            <div class="myabsolute pr-2 pl-2 categories">
+                                ANALYSIS
+                            </div>
+                        </span>
+
+                        <figcaption>
+                            <a href="#" class="text-dark font-weight-bold">Young 'Trumpkins' Showcase His Hold on the
+                                GOP's
+                                Future</a>
+                        </figcaption>
+                    </figure>
+                    <p>
+                        Celebrating all things Trump, conservative students (metaphorically) gave the finger to
+                        political
+                        correctness and socialism.
+                    </p>
+                </article>
+                <article class="col-md-3">
+
+                    <figure>
+                        <span class="d-flex position-relative">
+                            <img src="images/sec2-art1.jpg" alt="Article 1" width="100%">
+                            <div class="myabsolute pr-2 pl-2 categories">
+                                ANALYSIS
+                            </div>
+                        </span>
+
+                        <figcaption>
+                            <a href="#" class="text-dark font-weight-bold">Young 'Trumpkins' Showcase His Hold on the
+                                GOP's
+                                Future</a>
+                        </figcaption>
+                    </figure>
+                    <p>
+                        Celebrating all things Trump, conservative students (metaphorically) gave the finger to
+                        political
+                        correctness and socialism.
+                    </p>
+                </article>
+
+                <article class="col-md-3">
+
+                    <figure>
+                        <span class="d-flex position-relative">
+                            <img src="images/sect6-art8.png" alt="Article 1" width="100%">
+                            <div class="myabsolute pr-2 pl-2 categories">
+                                ANALYSIS
+                            </div>
+                        </span>
+
+                        <figcaption>
+                            <a href="#" class="text-dark font-weight-bold">Young 'Trumpkins' Showcase His Hold on the
+                                GOP's
+                                Future</a>
+                        </figcaption>
+                    </figure>
+                    <p>
+                        Celebrating all things Trump, conservative students (metaphorically) gave the finger to
+                        political
+                        correctness and socialism.
+                    </p>
+                </article>
+            </div>
+
         </section>
 
-        <section class=" col-md-8">
 
-            <h5 class="text-center border-bottom font-weight-bold">
-                IN THE MAGAZINE
+
+
+        <section>
+            <h6 class="text-center border-bottom pb-1">
+                FEATURED SLIDESHOWS
+            </h6>
+            <div class="row mt-3">
+                <article class="col-md-4">
+                    <figure>
+                        <span class="d-flex position-relative">
+                            <img src="images/sect6-art1.jpg" alt="Article 1" width="100%">
+                            <div class="myabsolute pr-2 pl-2 categories">
+                                ANALYSIS
+                            </div>
+                        </span>
+
+                        <figcaption>
+                            <a href="#" class="text-dark font-weight-bold">Young 'Trumpkins' Showcase His Hold on the
+                                GOP's
+                                Future</a>
+                        </figcaption>
+                    </figure>
+
+
+                </article>
+
+                <article class="col-md-4">
+
+                    <figure>
+                        <span class="d-flex position-relative">
+                            <img src="images/sect6-art2.jpg" alt="Article 1" width="100%">
+                            <div class="myabsolute pr-2 pl-2 categories">
+                                ANALYSIS
+                            </div>
+                        </span>
+
+                        <figcaption>
+                            <a href="#" class="text-dark font-weight-bold">Young 'Trumpkins' Showcase His Hold on the
+                                GOP's
+                                Future</a>
+                        </figcaption>
+                    </figure>
+
+                </article>
+                <article class="col-md-4">
+
+                    <figure>
+                        <span class="d-flex position-relative">
+                            <img src="images/scet6-art3.jpg" alt="Article 1" width="100%">
+                            <div class="myabsolute pr-2 pl-2 categories">
+                                ANALYSIS
+                            </div>
+                        </span>
+
+                        <figcaption>
+                            <a href="#" class="text-dark font-weight-bold">Young 'Trumpkins' Showcase His Hold on the
+                                GOP's
+                                Future</a>
+                        </figcaption>
+                    </figure>
+
+                </article>
+                <article class="col-md-4">
+
+                    <figure>
+                        <span class="d-flex position-relative">
+                            <img src="images/sect6-art4.jpg" alt="Article 1" width="100%">
+                            <div class="myabsolute pr-2 pl-2 categories">
+                                ANALYSIS
+                            </div>
+                        </span>
+
+                        <figcaption>
+                            <a href="#" class="text-dark font-weight-bold">Young 'Trumpkins' Showcase His Hold on the
+                                GOP's
+                                Future</a>
+                        </figcaption>
+                    </figure>
+
+                </article>
+                <article class="col-md-4">
+
+                    <figure>
+                        <span class="d-flex position-relative">
+                            <img src="images/sect6-art5.jpg" alt="Article 1" width="100%">
+                            <div class="myabsolute pr-2 pl-2 categories">
+                                ANALYSIS
+                            </div>
+                        </span>
+
+                        <figcaption>
+                            <a href="#" class="text-dark font-weight-bold">Young 'Trumpkins' Showcase His Hold on the
+                                GOP's
+                                Future</a>
+                        </figcaption>
+                    </figure>
+
+                </article>
+                <article class="col-md-4">
+
+                    <figure>
+                        <span class="d-flex position-relative">
+                            <img src="images/sect6-art6.jpg" alt="Article 1" width="100%">
+                            <div class="myabsolute pr-2 pl-2 categories">
+                                ANALYSIS
+                            </div>
+                        </span>
+
+                        <figcaption>
+                            <a href="#" class="text-dark font-weight-bold">Young 'Trumpkins' Showcase His Hold on the
+                                GOP's
+                                Future</a>
+                        </figcaption>
+                    </figure>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <section class="mt-4">
+            <h5 class="red-text font-weight-bold border-top pt-2">
+                U.S
             </h5>
-
-            <article class="row">
-                <div class="col-md-4">
-                    <img src="images/sect5-art1.jpg" alt="Article 1" width="100%" height="290">
+            <div class="row">
+                <article class="col-md-4">
+                    <img src="images/sect7-art1.jpg" alt="">
                     <p>
-                        <button class="red-bg text-white border-0 font-weight-bold">
-                            HEALTH
-                        </button>
-                        <button class="bg-light red-text border-0 font-weight-bold">
-                            COVER
-                        </button>
-
+                        <a href="#" class="text-dark font-weight-bold">Pence's Fundraiser Cost $24k in Security, and
+                            Sheriff
+                            Wants Someone to Pay</a>
                     </p>
-                    <P>
-                        <a href="#" class="text-dark font-weight-bold">How Harvard Caved to Students and Fired Its First
-                            Black Faculty Dean </a>
-                    </P>
-                </div>
+                </article>
 
-                <div class="col-md-4">
-                    <img src="images/sect5-art2.jpg" alt="Article 1" width="100%" height="290">
+                <article class="col-md-4">
+                    <img src="images/sect7-art2.jpg" alt="">
                     <p>
-                        <button class="red-bg text-white border-0 font-weight-bold">
-                            HEALTH
-                        </button>
-                        <button class="bg-light red-text border-0 font-weight-bold">
-                            FEATURES
-                        </button>
-
+                        <a href="#" class="text-dark font-weight-bold">Fox News Host Suggests Robert Mueller Has 'Onset
+                            Dementia'</a>
                     </p>
-                    <P>
-                        <a href="#" class="text-dark font-weight-bold">How Harvard Caved to Students and Fired Its First
-                            Black Faculty Dean </a>
-                    </P>
-                </div>
+                </article>
+                <article class="col-md-4">
+                    <div class="clearfix pb-2">
+                        <img class="float-left mr-2" src="images/sect7-art3.jpg" alt="" width="135" height="90">
+                        <p class="smallLineHeiht">
+                            <a href="#" class="text-dark">
+                                <small>
+                                    <b>
+                                        tree stump
+                                        Living Tree Stump That Survives by Feasting from Its Neighbors Discovered
+                                    </b>
+                                </small>
 
-                <div class="col-md-4">
-                    <img src="images/sect5-art3.jpg" alt="Article 1" width="100%" height="290">
-                    <p>
-                        <button class="red-bg text-white border-0 font-weight-bold">
-                            HEALTH
-                        </button>
-                        <button class="bg-light red-text border-0 font-weight-bold">
-                            FEATURES
-                        </button>
+                            </a>
+                        </p>
+                    </div>
 
-                    </p>
-                    <P>
-                        <a href="#" class="text-dark font-weight-bold">How Harvard Caved to Students and Fired Its First
-                            Black Faculty Dean </a>
-                    </P>
-                </div>
+                    <div class="clearfix pb-2">
+                        <img class="float-left mr-2" src="images/sect7-art4.jpg" alt="" width="135" height="90">
+                        <p class="smallLineHeiht">
+                            <a href="#" class="text-dark">
+                                <small>
+                                    <b>
+                                        tree stump
+                                        Living Tree Stump That Survives by Feasting from Its Neighbors Discovered
+                                    </b>
+                                </small>
 
-                <div class="col-md-4">
-                    <img src="images/sect5-art4.jpg" alt="Article 1" width="100%" height="290">
-                    <p>
-                        <button class="red-bg text-white border-0 font-weight-bold">
-                            HEALTH
-                        </button>
-                        <button class="bg-light red-text border-0 font-weight-bold">
-                            FEATURES
-                        </button>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="clearfix pb-2">
+                        <img class="float-left mr-2" src="images/sect7-art5.png" alt="" width="135" height="90">
+                        <p class="smallLineHeiht">
+                            <a href="#" class="text-dark">
+                                <small>
+                                    <b>
+                                        tree stump
+                                        Living Tree Stump That Survives by Feasting from Its Neighbors Discovered
+                                    </b>
+                                </small>
 
-                    </p>
-                    <P>
-                        <a href="#" class="text-dark font-weight-bold">How Harvard Caved to Students and Fired Its First
-                            Black Faculty Dean </a>
-                    </P>
-                </div>
+                            </a>
+                        </p>
+                    </div>
+                </article>
 
-                <div class="col-md-4">
-                    <img src="images/sect5-art5.jpg" alt="Article 1" width="100%" height="290">
-                    <p>
-                        <button class="red-bg text-white border-0 font-weight-bold">
-                            HEALTH
-                        </button>
-                        <button class="bg-light red-text border-0 font-weight-bold">
-                            FEATURES
-                        </button>
-
-                    </p>
-                    <P>
-                        <a href="#" class="text-dark font-weight-bold">How Harvard Caved to Students and Fired Its First
-                            Black Faculty Dean </a>
-                    </P>
-                </div>
-
-                <div class="col-md-4">
-                    <img src="images/sect5-art6.jpg" alt="Article 1" width="100%" height="290">
-                    <p>
-                        <button class="red-bg text-white border-0 font-weight-bold">
-                            HEALTH
-                        </button>
-                        <button class="bg-light red-text border-0 font-weight-bold">
-                            FEATURES
-                        </button>
-
-                    </p>
-                    <P>
-                        <a href="#" class="text-dark font-weight-bold">How Harvard Caved to Students and Fired Its First
-                            Black Faculty Dean </a>
-                    </P>
-                </div>
-
-            </article>
-
+            </div>
         </section>
+
+
+
+
+        <section class="mt-4">
+            <h5 class="red-text font-weight-bold border-top pt-2">
+                World
+            </h5>
+            <div class="row">
+                <article class="col-md-4">
+                    <img src="images/sect8-art1.jpg" alt="">
+                    <p>
+                        <a href="#" class="text-dark font-weight-bold">Pence's Fundraiser Cost $24k in Security, and
+                            Sheriff
+                            Wants Someone to Pay</a>
+                    </p>
+                </article>
+
+                <article class="col-md-4">
+                    <img src="images/sect8-art2.jpg" alt="">
+                    <p>
+                        <a href="#" class="text-dark font-weight-bold">Fox News Host Suggests Robert Mueller Has 'Onset
+                            Dementia'</a>
+                    </p>
+                </article>
+                <article class="col-md-4">
+                    <div class="clearfix pb-2">
+                        <img class="float-left mr-2" src="images/sect8-art3.jpg" alt="" width="135" height="90">
+                        <p class="smallLineHeiht">
+                            <a href="#" class="text-dark">
+                                <small>
+                                    <b>
+                                        tree stump
+                                        Living Tree Stump That Survives by Feasting from Its Neighbors Discovered
+                                    </b>
+                                </small>
+
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="clearfix pb-2">
+                        <img class="float-left mr-2" src="images/sect8-art4.jpg" alt="" width="135" height="90">
+                        <p class="smallLineHeiht">
+                            <a href="#" class="text-dark">
+                                <small>
+                                    <b>
+                                        tree stump
+                                        Living Tree Stump That Survives by Feasting from Its Neighbors Discovered
+                                    </b>
+                                </small>
+
+                            </a>
+                        </p>
+                    </div>
+                    <div class="clearfix pb-2">
+                        <img class="float-left mr-2" src="images/sect8-art5.jpg" alt="" width="135" height="90">
+                        <p class="smallLineHeiht">
+                            <a href="#" class="text-dark">
+                                <small>
+                                    <b>
+                                        tree stump
+                                        Living Tree Stump That Survives by Feasting from Its Neighbors Discovered
+                                    </b>
+                                </small>
+
+                            </a>
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+
+
+        <section class="mt-4">
+            <h5 class="red-text font-weight-bold border-top pt-2">
+                Business
+            </h5>
+            <div class="row">
+                <article class="col-md-4">
+                    <img src="images/sect9-art1.png" alt="">
+                    <p>
+                        <a href="#" class="text-dark font-weight-bold">Pence's Fundraiser Cost $24k in Security, and
+                            Sheriff
+                            Wants Someone to Pay</a>
+                    </p>
+                </article>
+
+                <article class="col-md-4">
+                    <img src="images/sect9-art2.jpg" alt="">
+                    <p>
+                        <a href="#" class="text-dark font-weight-bold">Fox News Host Suggests Robert Mueller Has 'Onset
+                            Dementia'</a>
+                    </p>
+                </article>
+                <article class="col-md-4">
+                    <div class="clearfix pb-2">
+                        <img class="float-left mr-2" src="images/sect9-art3.jpg" alt="" width="135" height="90">
+                        <p class="smallLineHeiht">
+                            <a href="#" class="text-dark">
+                                <small>
+                                    <b>
+                                        tree stump
+                                        Living Tree Stump That Survives by Feasting from Its Neighbors Discovered
+                                    </b>
+                                </small>
+
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="clearfix pb-2">
+                        <img class="float-left mr-2" src="images/sect9-art4.jpg" alt="" width="135" height="90">
+                        <p class="smallLineHeiht">
+                            <a href="#" class="text-dark">
+                                <small>
+                                    <b>
+                                        tree stump
+                                        Living Tree Stump That Survives by Feasting from Its Neighbors Discovered
+                                    </b>
+                                </small>
+
+                            </a>
+                        </p>
+                    </div>
+                    <div class="clearfix pb-2">
+                        <img class="float-left mr-2" src="images/sect9-art5.jpg" alt="" width="135" height="90">
+                        <p class="smallLineHeiht">
+                            <a href="#" class="text-dark">
+                                <small>
+                                    <b>
+                                        tree stump
+                                        Living Tree Stump That Survives by Feasting from Its Neighbors Discovered
+                                    </b>
+                                </small>
+
+                            </a>
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+
+
+
+
+        <section class="mt-4">
+            <h5 class="red-text font-weight-bold border-top pt-2">
+                Sports
+            </h5>
+            <div class="row">
+                <article class="col-md-4">
+                    <img src="images/sect10-art1.jpg" alt="">
+                    <p>
+                        <a href="#" class="text-dark font-weight-bold">Pence's Fundraiser Cost $24k in Security, and
+                            Sheriff
+                            Wants Someone to Pay</a>
+                    </p>
+                </article>
+
+                <article class="col-md-4">
+                    <img src="images/sect10-art2.jpg" alt="">
+                    <p>
+                        <a href="#" class="text-dark font-weight-bold">Fox News Host Suggests Robert Mueller Has 'Onset
+                            Dementia'</a>
+                    </p>
+                </article>
+                <article class="col-md-4">
+                    <div class="clearfix pb-2">
+                        <img class="float-left mr-2" src="images/sect10-art3.jpg" alt="" width="135" height="90">
+                        <p class="smallLineHeiht">
+                            <a href="#" class="text-dark">
+                                <small>
+                                    <b>
+                                        tree stump
+                                        Living Tree Stump That Survives by Feasting from Its Neighbors Discovered
+                                    </b>
+                                </small>
+
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="clearfix pb-2">
+                        <img class="float-left mr-2" src="images/sect10-art4.jpg" alt="" width="135" height="90">
+                        <p class="smallLineHeiht">
+                            <a href="#" class="text-dark">
+                                <small>
+                                    <b>
+                                        tree stump
+                                        Living Tree Stump That Survives by Feasting from Its Neighbors Discovered
+                                    </b>
+                                </small>
+
+                            </a>
+                        </p>
+                    </div>
+                    <div class="clearfix pb-2">
+                        <img class="float-left mr-2" src="images/sect10-art5.jpg" alt="" width="135" height="90">
+                        <p class="smallLineHeiht">
+                            <a href="#" class="text-dark">
+                                <small>
+                                    <b>
+                                        tree stump
+                                        Living Tree Stump That Survives by Feasting from Its Neighbors Discovered
+                                    </b>
+                                </small>
+
+                            </a>
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="row">
+            <article class="col-md-8">
+                <h6 class="red-text">
+                    SUBSCRIBE
+                </h6>
+                <div class="html-bg p-4 clearfix">
+                    <img class="float-left mr-4" src="images/sect11-art1.jpg" alt="">
+                    <p class="mt-4 font-weight-bold">
+                        In-depth Stories You Don't See Elsewhere About Topics You Want to Read!
+                    </p>
+                    <p>
+                        All Access + Weekly Delivery.<br>
+                        Choose A Membership That's Perfect for You!
+                    </p>
+                    <button class="red-bg text-white border-0 font-weight-bold">
+                        SUBSCRIBE <i class="fas fa-chevron-right"></i>
+                    </button>
+
+                </div>
+
+            </article>
+            <article class="col-md-4">
+                <h6 class="red-text">
+                    NEWSLETTER
+                </h6>
+                <div class="border clearfix">
+                    <img class="float-left mr-4" src="images/sect11-art2.gif" width="200" height="300" alt="">
+                    <p class="mt-4 font-weight-bold">
+                        In-depth Stories You Don't See Elsewhere About Topics You Want to Read!
+                    </p>
+                    <p>
+                        All Access + Weekly Delivery.<br>
+                        Choose A Membership That's Perfect for You!
+                    </p>
+                    <button class="red-bg text-white border-0 font-weight-bold">
+                        SIGNUP <i class="fas fa-chevron-right"></i>
+                    </button>
+
+                </div>
+
+            </article>
+        </section>
+
     </div>
-
-    <section>
-        <h6 class="text-center border-bottom pb-1">
-            EDITOR'S PICK
-        </h6>
-        <div class="row mt-3">
-            <article class="col-md-3">
-                <figure>
-                    <span class="d-flex position-relative">
-                        <img src="images/sect6-art1.jpg" alt="Article 1" width="100%">
-                        <div class="myabsolute pr-2 pl-2 categories">
-                            ANALYSIS
-                        </div>
-                    </span>
-
-                    <figcaption>
-                        <a href="#" class="text-dark font-weight-bold">Young 'Trumpkins' Showcase His Hold on the GOP's
-                            Future</a>
-                    </figcaption>
-                </figure>
-                <p>
-                    Celebrating all things Trump, conservative students (metaphorically) gave the finger to political
-                    correctness and socialism.
-                </p>
-
-            </article>
-
-            <article class="col-md-3">
-
-                <figure>
-                    <span class="d-flex position-relative">
-                        <img src="images/sect6-art2.jpg" alt="Article 1" width="100%">
-                        <div class="myabsolute pr-2 pl-2 categories">
-                            ANALYSIS
-                        </div>
-                    </span>
-
-                    <figcaption>
-                        <a href="#" class="text-dark font-weight-bold">Young 'Trumpkins' Showcase His Hold on the GOP's
-                            Future</a>
-                    </figcaption>
-                </figure>
-                <p>
-                    Celebrating all things Trump, conservative students (metaphorically) gave the finger to political
-                    correctness and socialism.
-                </p>
-            </article>
-            <article class="col-md-3">
-
-                <figure>
-                    <span class="d-flex position-relative">
-                        <img src="images/scet6-art3.jpg" alt="Article 1" width="100%">
-                        <div class="myabsolute pr-2 pl-2 categories">
-                            ANALYSIS
-                        </div>
-                    </span>
-
-                    <figcaption>
-                        <a href="#" class="text-dark font-weight-bold">Young 'Trumpkins' Showcase His Hold on the GOP's
-                            Future</a>
-                    </figcaption>
-                </figure>
-                <p>
-                    Celebrating all things Trump, conservative students (metaphorically) gave the finger to political
-                    correctness and socialism.
-                </p>
-            </article>
-            <article class="col-md-3">
-
-                <figure>
-                    <span class="d-flex position-relative">
-                        <img src="images/sect6-art4.jpg" alt="Article 1" width="100%">
-                        <div class="myabsolute pr-2 pl-2 categories">
-                            ANALYSIS
-                        </div>
-                    </span>
-
-                    <figcaption>
-                        <a href="#" class="text-dark font-weight-bold">Young 'Trumpkins' Showcase His Hold on the GOP's
-                            Future</a>
-                    </figcaption>
-                </figure>
-                <p>
-                    Celebrating all things Trump, conservative students (metaphorically) gave the finger to political
-                    correctness and socialism.
-                </p>
-            </article>
-            <article class="col-md-3">
-
-                <figure>
-                    <span class="d-flex position-relative">
-                        <img src="images/sect6-art5.jpg" alt="Article 1" width="100%">
-                        <div class="myabsolute pr-2 pl-2 categories">
-                            ANALYSIS
-                        </div>
-                    </span>
-
-                    <figcaption>
-                        <a href="#" class="text-dark font-weight-bold">Young 'Trumpkins' Showcase His Hold on the GOP's
-                            Future</a>
-                    </figcaption>
-                </figure>
-                <p>
-                    Celebrating all things Trump, conservative students (metaphorically) gave the finger to political
-                    correctness and socialism.
-                </p>
-            </article>
-            <article class="col-md-3">
-
-                <figure>
-                    <span class="d-flex position-relative">
-                        <img src="images/sect6-art6.jpg" alt="Article 1" width="100%">
-                        <div class="myabsolute pr-2 pl-2 categories">
-                            ANALYSIS
-                        </div>
-                    </span>
-
-                    <figcaption>
-                        <a href="#" class="text-dark font-weight-bold">Young 'Trumpkins' Showcase His Hold on the GOP's
-                            Future</a>
-                    </figcaption>
-                </figure>
-                <p>
-                    Celebrating all things Trump, conservative students (metaphorically) gave the finger to political
-                    correctness and socialism.
-                </p>
-            </article>
-            <article class="col-md-3">
-
-                <figure>
-                    <span class="d-flex position-relative">
-                        <img src="images/sec2-art1.jpg" alt="Article 1" width="100%">
-                        <div class="myabsolute pr-2 pl-2 categories">
-                            ANALYSIS
-                        </div>
-                    </span>
-
-                    <figcaption>
-                        <a href="#" class="text-dark font-weight-bold">Young 'Trumpkins' Showcase His Hold on the GOP's
-                            Future</a>
-                    </figcaption>
-                </figure>
-                <p>
-                    Celebrating all things Trump, conservative students (metaphorically) gave the finger to political
-                    correctness and socialism.
-                </p>
-            </article>
-
-            <article class="col-md-3">
-
-                <figure>
-                    <span class="d-flex position-relative">
-                        <img src="images/sect6-art8.png" alt="Article 1" width="100%">
-                        <div class="myabsolute pr-2 pl-2 categories">
-                            ANALYSIS
-                        </div>
-                    </span>
-
-                    <figcaption>
-                        <a href="#" class="text-dark font-weight-bold">Young 'Trumpkins' Showcase His Hold on the GOP's
-                            Future</a>
-                    </figcaption>
-                </figure>
-                <p>
-                    Celebrating all things Trump, conservative students (metaphorically) gave the finger to political
-                    correctness and socialism.
-                </p>
-            </article>
-        </div>
-
-    </section>
-
-
-
-
-    <section>
-        <h6 class="text-center border-bottom pb-1">
-            FEATURED SLIDESHOWS
-        </h6>
-        <div class="row mt-3">
-            <article class="col-md-4">
-                <figure>
-                    <span class="d-flex position-relative">
-                        <img src="images/sect6-art1.jpg" alt="Article 1" width="100%">
-                        <div class="myabsolute pr-2 pl-2 categories">
-                            ANALYSIS
-                        </div>
-                    </span>
-
-                    <figcaption>
-                        <a href="#" class="text-dark font-weight-bold">Young 'Trumpkins' Showcase His Hold on the GOP's
-                            Future</a>
-                    </figcaption>
-                </figure>
-
-
-            </article>
-
-            <article class="col-md-4">
-
-                <figure>
-                    <span class="d-flex position-relative">
-                        <img src="images/sect6-art2.jpg" alt="Article 1" width="100%">
-                        <div class="myabsolute pr-2 pl-2 categories">
-                            ANALYSIS
-                        </div>
-                    </span>
-
-                    <figcaption>
-                        <a href="#" class="text-dark font-weight-bold">Young 'Trumpkins' Showcase His Hold on the GOP's
-                            Future</a>
-                    </figcaption>
-                </figure>
-
-            </article>
-            <article class="col-md-4">
-
-                <figure>
-                    <span class="d-flex position-relative">
-                        <img src="images/scet6-art3.jpg" alt="Article 1" width="100%">
-                        <div class="myabsolute pr-2 pl-2 categories">
-                            ANALYSIS
-                        </div>
-                    </span>
-
-                    <figcaption>
-                        <a href="#" class="text-dark font-weight-bold">Young 'Trumpkins' Showcase His Hold on the GOP's
-                            Future</a>
-                    </figcaption>
-                </figure>
-
-            </article>
-            <article class="col-md-4">
-
-                <figure>
-                    <span class="d-flex position-relative">
-                        <img src="images/sect6-art4.jpg" alt="Article 1" width="100%">
-                        <div class="myabsolute pr-2 pl-2 categories">
-                            ANALYSIS
-                        </div>
-                    </span>
-
-                    <figcaption>
-                        <a href="#" class="text-dark font-weight-bold">Young 'Trumpkins' Showcase His Hold on the GOP's
-                            Future</a>
-                    </figcaption>
-                </figure>
-
-            </article>
-            <article class="col-md-4">
-
-                <figure>
-                    <span class="d-flex position-relative">
-                        <img src="images/sect6-art5.jpg" alt="Article 1" width="100%">
-                        <div class="myabsolute pr-2 pl-2 categories">
-                            ANALYSIS
-                        </div>
-                    </span>
-
-                    <figcaption>
-                        <a href="#" class="text-dark font-weight-bold">Young 'Trumpkins' Showcase His Hold on the GOP's
-                            Future</a>
-                    </figcaption>
-                </figure>
-
-            </article>
-            <article class="col-md-4">
-
-                <figure>
-                    <span class="d-flex position-relative">
-                        <img src="images/sect6-art6.jpg" alt="Article 1" width="100%">
-                        <div class="myabsolute pr-2 pl-2 categories">
-                            ANALYSIS
-                        </div>
-                    </span>
-
-                    <figcaption>
-                        <a href="#" class="text-dark font-weight-bold">Young 'Trumpkins' Showcase His Hold on the GOP's
-                            Future</a>
-                    </figcaption>
-                </figure>
-
-            </article>
-
-        </div>
-
-    </section>
-
-    <section class="mt-4">
-        <h5 class="red-text font-weight-bold border-top pt-2">
-            U.S
-        </h5>
-        <div class="row">
-            <article class="col-md-4">
-                <img src="images/sect7-art1.jpg" alt="">
-                <p>
-                    <a href="#" class="text-dark font-weight-bold">Pence's Fundraiser Cost $24k in Security, and Sheriff
-                        Wants Someone to Pay</a>
-                </p>
-            </article>
-
-            <article class="col-md-4">
-                <img src="images/sect7-art2.jpg" alt="">
-                <p>
-                    <a href="#" class="text-dark font-weight-bold">Fox News Host Suggests Robert Mueller Has 'Onset
-                        Dementia'</a>
-                </p>
-            </article>
-            <article class="col-md-4">
-                <div class="clearfix pb-2">
-                    <img class="float-left mr-2" src="images/sect7-art3.jpg" alt="" width="135" height="90">
-                    <p class="smallLineHeiht">
-                        <a href="#" class="text-dark">
-                            <small>
-                                <b>
-                                    tree stump
-                                    Living Tree Stump That Survives by Feasting from Its Neighbors Discovered
-                                </b>
-                            </small>
-
-                        </a>
-                    </p>
-                </div>
-
-                <div class="clearfix pb-2">
-                    <img class="float-left mr-2" src="images/sect7-art4.jpg" alt="" width="135" height="90">
-                    <p class="smallLineHeiht">
-                        <a href="#" class="text-dark">
-                            <small>
-                                <b>
-                                    tree stump
-                                    Living Tree Stump That Survives by Feasting from Its Neighbors Discovered
-                                </b>
-                            </small>
-
-                        </a>
-                    </p>
-                </div>
-                <div class="clearfix pb-2">
-                    <img class="float-left mr-2" src="images/sect7-art5.png" alt="" width="135" height="90">
-                    <p class="smallLineHeiht">
-                        <a href="#" class="text-dark">
-                            <small>
-                                <b>
-                                    tree stump
-                                    Living Tree Stump That Survives by Feasting from Its Neighbors Discovered
-                                </b>
-                            </small>
-
-                        </a>
-                    </p>
-                </div>
-            </article>
-
-        </div>
-    </section>
-
-
-
-
-    <section class="mt-4">
-        <h5 class="red-text font-weight-bold border-top pt-2">
-            World
-        </h5>
-        <div class="row">
-            <article class="col-md-4">
-                <img src="images/sect8-art1.jpg" alt="">
-                <p>
-                    <a href="#" class="text-dark font-weight-bold">Pence's Fundraiser Cost $24k in Security, and Sheriff
-                        Wants Someone to Pay</a>
-                </p>
-            </article>
-
-            <article class="col-md-4">
-                <img src="images/sect8-art2.jpg" alt="">
-                <p>
-                    <a href="#" class="text-dark font-weight-bold">Fox News Host Suggests Robert Mueller Has 'Onset
-                        Dementia'</a>
-                </p>
-            </article>
-            <article class="col-md-4">
-                <div class="clearfix pb-2">
-                    <img class="float-left mr-2" src="images/sect8-art3.jpg" alt="" width="135" height="90">
-                    <p class="smallLineHeiht">
-                        <a href="#" class="text-dark">
-                            <small>
-                                <b>
-                                    tree stump
-                                    Living Tree Stump That Survives by Feasting from Its Neighbors Discovered
-                                </b>
-                            </small>
-
-                        </a>
-                    </p>
-                </div>
-
-                <div class="clearfix pb-2">
-                    <img class="float-left mr-2" src="images/sect8-art4.jpg" alt="" width="135" height="90">
-                    <p class="smallLineHeiht">
-                        <a href="#" class="text-dark">
-                            <small>
-                                <b>
-                                    tree stump
-                                    Living Tree Stump That Survives by Feasting from Its Neighbors Discovered
-                                </b>
-                            </small>
-
-                        </a>
-                    </p>
-                </div>
-                <div class="clearfix pb-2">
-                    <img class="float-left mr-2" src="images/sect8-art5.jpg" alt="" width="135" height="90">
-                    <p class="smallLineHeiht">
-                        <a href="#" class="text-dark">
-                            <small>
-                                <b>
-                                    tree stump
-                                    Living Tree Stump That Survives by Feasting from Its Neighbors Discovered
-                                </b>
-                            </small>
-
-                        </a>
-                    </p>
-                </div>
-            </article>
-
-        </div>
-    </section>
-
-
-
-    <section class="mt-4">
-        <h5 class="red-text font-weight-bold border-top pt-2">
-            Business
-        </h5>
-        <div class="row">
-            <article class="col-md-4">
-                <img src="images/sect9-art1.png" alt="">
-                <p>
-                    <a href="#" class="text-dark font-weight-bold">Pence's Fundraiser Cost $24k in Security, and Sheriff
-                        Wants Someone to Pay</a>
-                </p>
-            </article>
-
-            <article class="col-md-4">
-                <img src="images/sect9-art2.jpg" alt="">
-                <p>
-                    <a href="#" class="text-dark font-weight-bold">Fox News Host Suggests Robert Mueller Has 'Onset
-                        Dementia'</a>
-                </p>
-            </article>
-            <article class="col-md-4">
-                <div class="clearfix pb-2">
-                    <img class="float-left mr-2" src="images/sect9-art3.jpg" alt="" width="135" height="90">
-                    <p class="smallLineHeiht">
-                        <a href="#" class="text-dark">
-                            <small>
-                                <b>
-                                    tree stump
-                                    Living Tree Stump That Survives by Feasting from Its Neighbors Discovered
-                                </b>
-                            </small>
-
-                        </a>
-                    </p>
-                </div>
-
-                <div class="clearfix pb-2">
-                    <img class="float-left mr-2" src="images/sect9-art4.jpg" alt="" width="135" height="90">
-                    <p class="smallLineHeiht">
-                        <a href="#" class="text-dark">
-                            <small>
-                                <b>
-                                    tree stump
-                                    Living Tree Stump That Survives by Feasting from Its Neighbors Discovered
-                                </b>
-                            </small>
-
-                        </a>
-                    </p>
-                </div>
-                <div class="clearfix pb-2">
-                    <img class="float-left mr-2" src="images/sect9-art5.jpg" alt="" width="135" height="90">
-                    <p class="smallLineHeiht">
-                        <a href="#" class="text-dark">
-                            <small>
-                                <b>
-                                    tree stump
-                                    Living Tree Stump That Survives by Feasting from Its Neighbors Discovered
-                                </b>
-                            </small>
-
-                        </a>
-                    </p>
-                </div>
-            </article>
-
-        </div>
-    </section>
-
-
-
-
-
-    <section class="mt-4">
-        <h5 class="red-text font-weight-bold border-top pt-2">
-            Sports
-        </h5>
-        <div class="row">
-            <article class="col-md-4">
-                <img src="images/sect10-art1.jpg" alt="">
-                <p>
-                    <a href="#" class="text-dark font-weight-bold">Pence's Fundraiser Cost $24k in Security, and Sheriff
-                        Wants Someone to Pay</a>
-                </p>
-            </article>
-
-            <article class="col-md-4">
-                <img src="images/sect10-art2.jpg" alt="">
-                <p>
-                    <a href="#" class="text-dark font-weight-bold">Fox News Host Suggests Robert Mueller Has 'Onset
-                        Dementia'</a>
-                </p>
-            </article>
-            <article class="col-md-4">
-                <div class="clearfix pb-2">
-                    <img class="float-left mr-2" src="images/sect10-art3.jpg" alt="" width="135" height="90">
-                    <p class="smallLineHeiht">
-                        <a href="#" class="text-dark">
-                            <small>
-                                <b>
-                                    tree stump
-                                    Living Tree Stump That Survives by Feasting from Its Neighbors Discovered
-                                </b>
-                            </small>
-
-                        </a>
-                    </p>
-                </div>
-
-                <div class="clearfix pb-2">
-                    <img class="float-left mr-2" src="images/sect10-art4.jpg" alt="" width="135" height="90">
-                    <p class="smallLineHeiht">
-                        <a href="#" class="text-dark">
-                            <small>
-                                <b>
-                                    tree stump
-                                    Living Tree Stump That Survives by Feasting from Its Neighbors Discovered
-                                </b>
-                            </small>
-
-                        </a>
-                    </p>
-                </div>
-                <div class="clearfix pb-2">
-                    <img class="float-left mr-2" src="images/sect10-art5.jpg" alt="" width="135" height="90">
-                    <p class="smallLineHeiht">
-                        <a href="#" class="text-dark">
-                            <small>
-                                <b>
-                                    tree stump
-                                    Living Tree Stump That Survives by Feasting from Its Neighbors Discovered
-                                </b>
-                            </small>
-
-                        </a>
-                    </p>
-                </div>
-            </article>
-
-        </div>
-    </section>
-
-    <section class="row">
-        <article class="col-md-8">
-            <h6 class="red-text">
-                SUBSCRIBE
-            </h6>
-            <div class="html-bg p-4 clearfix">
-                <img class="float-left mr-4" src="images/sect11-art1.jpg" alt="">
-                <p class="mt-4 font-weight-bold">
-                    In-depth Stories You Don't See Elsewhere About Topics You Want to Read!
-                </p>
-                <p>
-                    All Access + Weekly Delivery.<br>
-                    Choose A Membership That's Perfect for You!
-                </p>
-                <button class="red-bg text-white border-0 font-weight-bold">
-                    SUBSCRIBE <i class="fas fa-chevron-right"></i>
-                </button>
-
-            </div>
-
-        </article>
-        <article class="col-md-4">
-            <h6 class="red-text">
-                NEWSLETTER
-            </h6>
-            <div class="border clearfix">
-                <img class="float-left mr-4" src="images/sect11-art2.gif"  width="200" height="300" alt="">
-                <p class="mt-4 font-weight-bold">
-                    In-depth Stories You Don't See Elsewhere About Topics You Want to Read!
-                </p>
-                <p>
-                    All Access + Weekly Delivery.<br>
-                    Choose A Membership That's Perfect for You!
-                </p>
-                <button class="red-bg text-white border-0 font-weight-bold">
-                    SIGNUP <i class="fas fa-chevron-right"></i>
-                </button>
-
-            </div>
-
-        </article>
-    </section>
-
-
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -1591,6 +1659,69 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+    <script>
+
+        var header = document.getElementById("head-container");
+        var innerheader = document.getElementById("header");
+        var sticky = header.offsetTop+header.height;
+        var navbar = document.getElementById("nav-bar");
+        var sticky = navbar.offsetTop;
+        var divToggler = document.getElementById("div-toggler");
+        var timeDiv = document.getElementById("time-div");
+        var newsDiv = document.getElementById("news-div");
+        var btnDiv = document.getElementById("btn-div");
+        var hangDiv = document.getElementById("hang");
+        var main=document.getElementById("main");
+        window.onscroll = function () { fixedNavBar() };
+
+        
+
+        function fixedNavBar() {
+
+            if (document.body.clientWidth > 755){
+                if (window.pageYOffset > sticky) {
+                header.classList.add("position-fixed");
+                header.classList.remove("container");
+                header.classList.add("navOnScroll");
+                innerheader.style.height="50px";
+                 main.style.paddingTop="120px";
+               navbar.classList.remove("navbar-expand-md");
+                divToggler.classList.remove("d-md-none");
+                timeDiv.classList.remove("col-md-4");
+                timeDiv.classList.remove("d-md-flex");
+                newsDiv.classList.add("col-md-5");
+                btnDiv.classList.add("col-md-6");
+                hangDiv.classList.add("d-none");
+               
+
+            } else {
+                header.classList.remove("navOnScroll");
+                innerheader.style.height="100px";
+                header.classList.add("container");
+                header.classList.remove("position-fixed");
+                navbar.classList.add("navbar-expand-md");
+                hangDiv.classList.remove("d-none");
+                main.style.paddingTop="0";
+
+
+                divToggler.classList.add("d-md-none");
+                timeDiv.classList.add("col-md-4");
+                timeDiv.classList.add("d-md-flex");
+                newsDiv.classList.remove("col-md-5");
+                btnDiv.classList.remove("col-md-6");
+                // navbar1.classList.remove("navbar-1-sticky");
+                // if (document.body.clientWidth > 755)
+                //     navbarLogo.style.display = "none";
+                // else
+                //     navbarLogo.style.display = "flex";
+
+            }
+            }
+           
+        }
+    </script>
+
 </body>
 
 </html>
