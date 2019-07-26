@@ -1,7 +1,32 @@
 #header {
     height: 50px;
+    
+    
+}
+
+#logo{
+    height:20px;
+}
+
+#head-container{
+    margin-bottom: 40px;
+    width:100%;
+    position: fixed;
+    z-index: 4;
 }
 
 .increaseimgSize {
     width: 220px;
+}
+
+.fixedNav{
+    position: fixed;;
+    width: 100px;
+    top:20px;
+    right:0px;
+    z-index:3;
+}
+
+.toggle-position{
+    text-align:left;
 }
