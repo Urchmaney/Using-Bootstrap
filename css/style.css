@@ -75,7 +75,7 @@
   position: fixed;
   height: 0;
   top: 50px;
-  right: 0px;
+  right: 0;
   z-index: 3;
 }
 

@@ -19,10 +19,9 @@
 
 .fixedNav {
   position: fixed;
-  ;
   width: 100px;
   top: 20px;
-  right: 0px;
+  right: 0;
   z-index: 3;
 }
 
