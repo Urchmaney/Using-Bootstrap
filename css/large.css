@@ -1,18 +1,18 @@
 #hang {
-    position: absolute;
-    width: 100px;
-    height: 20px;
-    right: 0;
-    bottom: -10px;
-    background-color: #f72210;
-    z-index: 2;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 10% 100%);
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  right: 0;
+  bottom: -10px;
+  background-color: #f72210;
+  z-index: 2;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 10% 100%);
 }
 
 #head-container {
-    position: relative;
+  position: relative;
 }
 
 .toggle-position {
-    text-align: right;
+  text-align: right;
 }
