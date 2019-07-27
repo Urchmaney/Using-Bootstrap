@@ -1,5 +1,5 @@
 .html-bg {
-    background-color: #F4F5F6;
+    background-color: #f4f5f6;
 }
 
 .header-margin {
@@ -33,7 +33,7 @@
 
 .categories {
     background-color: rgba(225, 225, 255, 0.9);
-    color: #F72210;
+    color: #f72210;
     font-size: 17px;
     font-weight: bold;
 }
@@ -49,16 +49,16 @@
 }
 
 .btn-bg {
-    background-color: #C2D4D7;
+    background-color: #c2d4d7;
 }
 
 .lightBlue {
-    color: #3581F4;
+    color: #3581f4;
 }
 
 .icon-n {
     content: "N";
-    background-color: #F72210;
+    background-color: #f72210;
     height: 75px;
     color: white;
     font-weight: bold;
