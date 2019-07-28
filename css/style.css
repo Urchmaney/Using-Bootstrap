@@ -1,0 +1,86 @@
+body {
+  min-width: 430px;
+}
+
+.html-bg {
+  background-color: #f4f5f6;
+}
+
+.header-margin {
+  margin-bottom: 10px;
+}
+
+.red-bg {
+  background-color: #f72210;
+}
+
+.red-text {
+  color: #f72210;
+}
+
+#header {
+  height: 100px;
+}
+
+.no-bg {
+  background-color: transparent;
+}
+
+.fs {
+  font-size: 15px;
+}
+
+.container {
+  max-width: 1300px;
+  padding: 0;
+}
+
+.categories {
+  background-color: rgba(225, 225, 255, 0.9);
+  color: #f72210;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.myabsolute {
+  left: 0;
+  bottom: 0;
+}
+
+.smallLineHeiht {
+  line-height: 1;
+}
+
+.btn-bg {
+  background-color: #c2d4d7;
+}
+
+.lightBlue {
+  color: #3581f4;
+}
+
+.icon-n {
+  content: "N";
+  background-color: #f72210;
+  height: 75px;
+  color: white;
+  font-weight: bold;
+  width: 75px;
+}
+
+.navOnScroll {
+  width: 100%;
+  height: 50px;
+  z-index: 2;
+}
+
+.fixedNavBig {
+  height: 0;
+  top: 50px;
+  right: 0;
+  z-index: 3;
+}
+
+.img-full {
+  width: 100%;
+}

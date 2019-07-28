@@ -1,0 +1,25 @@
+#header {
+  height: 50px;
+}
+
+#logo {
+  height: 20px;
+}
+
+#head-container {
+  position: fixed;
+  top: 0;
+  z-index: 4;
+}
+
+.increaseimgSize {
+  width: 220px;
+}
+
+.fixedNav {
+  position: fixed;
+  width: 100px;
+  top: 20px;
+  right: 0;
+  z-index: 3;
+}
