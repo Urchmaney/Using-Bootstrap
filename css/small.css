@@ -7,8 +7,8 @@
 }
 
 #head-container {
-  margin-bottom: 40px;
   width: 100%;
+  top:0;
   position: fixed;
   z-index: 4;
 }
@@ -25,6 +25,3 @@
   z-index: 3;
 }
 
-.toggle-position {
-  text-align: left;
-}
